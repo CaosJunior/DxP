@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Raviel" script="elitenpc.lua" walkinterval="3000" floorchange="0" speed="50">
+<health now="150" max="150"/>
+<look type="313"/>
+<parameters>
+<parameter key="message_greet" value="Welcome! I train pokemons fighters, you have a fighter pokemon?"/>
+<parameter key="message_farewell" value="Bye."/>
+<parameter key="message_idletimeout" value="Bye."/>
+<parameter key="message_walkaway" value="Bye."/>
+</parameters>
+</npc>

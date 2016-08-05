@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Giovanni" script="Giovanni.lua" walkinterval="0" floorchange="0" speed="0" lookdir="2">
+
+	<health now="150" max="150"/>
+
+	<look type="603" head="91" body="114" legs="86" feet="0"/>
+
+	<parameters>
+
+	<parameter key="message_greet" value="Welcome |PLAYERNAME|, I'm the lider of the Team Rocket! Do you want {join} to my team?"/>
+
+	</parameters>
+
+</npc>

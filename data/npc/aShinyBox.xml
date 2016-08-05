@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Alberto" script="shiny box.lua" walkinterval="3000" floorchange="0" speed="50" lookdir="2">
+<health now="150" max="150"/>
+<look type="510" head="114" body="119" legs="114" feet="114" corpse="2212"/>
+
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|, you want some {mission}?"/>
+
+	</parameters>
+
+</npc>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Ada" script="quest.lua" walkinterval="3000" floorchange="0" access="5" level="100" maglevel="1">
+<health now="15" max="15"/>
+<look type="495" head="114" body="119" legs="114" feet="114" corpse="3058"/>
+
+<parameters>
+	<parameter key="message_greet" value="Welcome |PLAYERNAME|, what you want?"/>
+</parameters>
+</npc>

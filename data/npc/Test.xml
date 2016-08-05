@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Pedro Gostoso" script="ItemToReward.lua" walkinterval="350000" floorchange="0" speed="0">
+<health now="100" max="100"/>
+<look type="513" head="0" body="50" legs="95" feet="20" addons="3"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|.I need {help}...you help me?"/> </parameters>
+</npc>

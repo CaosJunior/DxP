@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mite" script= "Mite.lua" walkinterval="350000" floorchange="0" speed="0" lookdir="2">
+<health now="150" max="150"/>
+<look type="516" head="95" body="126" legs="0" feet="114"/>
+
+	<parameters>
+		<parameter key="message_greet" value="Hi, there! Welcome to Mite Eletronics store, we have the best technology in the world."/>
+	</parameters>
+
+</npc>

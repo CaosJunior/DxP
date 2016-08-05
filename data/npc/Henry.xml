@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Henry" script="default.lua" walkinterval="3000" floorchange="0" speed="50">
+<health now="150" max="150"/>
+<look type="520" head="115" body="88" legs="114" feet="0"/>
+<parameters>
+<parameter key="message_greet" value="Hello dear customer! Are you here to see my offers? Come on, lets {trade}!"/>
+<parameter key="message_farewell" value="Good bye!"/>
+<parameter key="message_idletimeout" value="Good bye!"/>
+<parameter key="message_walkaway" value="Good bye!"/>
+<parameter key="module_shop" value="2"/>
+<parameter key="shop_buyable" value="Up-Grade,12419,3000000;Dragon Scale,12417,3000000;Magmarizer,12245,3000000;King's Rock,12244,3000000;Sun Stone,12242,3000000;Metal Coat,12232,3000000;Coccon Stone,11448,3000000;Venom Stone,11443,3000000;Heart Stone,11453,3000000;Leaf Stone,11441,3000000;Rock Stone,11445,3000000;Earth Stone,11451,3000000;Thunder Stone,11444,3000000;Water Stone,11442,3000000;Ice Stone,11454,3000000;Fire Stone,11447,3000000;Punch Stone,11446,3000000;Enigma Stone,11452,3000000;Darkness Stone,11450,3000000;Crystal Stone,11449,3000000;"/>
+<parameter key="shop_sellable" value="Up-Grade,12419,1500000;Dragon Scale,12417,1000000;Magmarizer,12245,1000000;King's Rock,12244,1000000;Sun Stone,12242,1000000;Metal Coat,12232,1000000;Coccon Stone,11448,1000000;Venom Stone,11443,1000000;Heart Stone,11453,1000000;Leaf Stone,11441,1000000;Rock Stone,11445,1000000;Earth Stone,11451,1000000;Thunder Stone,11444,1000000;Water Stone,11442,1000000;Ice Stone,11454,1000000;Fire Stone,11447,1000000;Punch Stone,11446,1000000;Enigma Stone,11452,1000000;Darkness Stone,11450,1000000;Crystal Stone,11449,1000000;"/>
+</parameters>
+</npc>

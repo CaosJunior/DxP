@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Max" script="Npc_Moveis.lua" walkinterval="350000" floorchange="0" speed="0">
+<health now="150" max="150"/>
+<look type="606" head="132" body="0" legs="114" feet="113"/>
+
+	<parameters>
+		<parameter key="message_greet" value="Hi, there! Welcome to Max furnitures, bringing your confort."/>
+	</parameters>
+</npc>

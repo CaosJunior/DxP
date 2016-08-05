@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bill" script="BillScript.lua" walkinterval="350000" floorchange="0" speed="0">
+<health now="100" max="100"/>
+<look type="531" head="132" body="75" legs="76" feet="74" addons="3"/>
+<parameters>
+<parameter key="message_greet" value="Hello, you want to know more than me? Tell info!"/> </parameters>
+</npc>

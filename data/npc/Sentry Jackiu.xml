@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sentry Jackiu" script="default.lua" walkinterval="3000" floorchange="0" access="5" level="1" maglevel="1">
+<health now="150" max="150"/>
+<look type="614" head="114" body="50" legs="114" feet="114"/>
+
+	<parameters>
+		<parameter key="message_greet" value="Hello! Be careful traveler, or you will get lost."/>
+	</parameters>
+
+</npc>

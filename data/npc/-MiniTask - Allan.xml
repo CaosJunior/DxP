@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Allan" script="data/npc/scripts/miniTasks/diariaAllan.lua" lookdir="2" walkinterval="30000000000" floorchange="0" speed="0">
+<health now="150" max="150"/>
+<look type="523" head="76" body="86" legs="96" feet="0"/>
+</npc>

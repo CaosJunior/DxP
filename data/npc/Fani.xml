@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Fani" script="default.lua" walkinterval="350000" floorchange="0" speed="0" lookdir="2">
+<health now="150" max="150"/>
+<look type="511" head="22" body="0" legs="19" feet="82"/>
+
+	<parameters>
+		<parameter key="message_greet" value="Welcome to Lan House, here you can play various games, enjoy!"/>
+	</parameters>
+
+</npc>

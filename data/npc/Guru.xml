@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Guru" script="default.lua" walkinterval="3000" floorchange="0" access="5" level="1" maglevel="1">
+<health now="150" max="150"/>
+<look type="520" head="114" body="114" legs="30" feet="116"/>
+<parameters>
+<parameter key="message_greet" value="Olá amigo pescador, eu vendo iscas frescas para a pesca, é so falar {trade} para ver as oferta!"/>
+<parameter key="message_farewell" value="Good bye!"/>
+<parameter key="message_idletimeout" value="Good bye!"/>
+<parameter key="message_walkaway" value="Good bye!"/>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value="Worml,3976,20;
+Seaweed,12855,50;
+Fish,12854,100;
+Shrimp,12858,150;
+Kept,12857,200;
+Steak,12860,250;
+Special Lure,12859,300;
+Misty's Special Lure,12856,350;
+Big Steak,12853,500"/>
+</parameters>
+</npc>

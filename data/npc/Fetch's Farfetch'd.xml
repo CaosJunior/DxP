@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Fetch's Farfetch'd" script="default.lua" walkinterval="3000" floorchange="0" access="5" level="1" maglevel="1">
+<health now="150" max="150"/>
+<look type="408" head="114" body="50" legs="114" feet="114"/>
+</npc>

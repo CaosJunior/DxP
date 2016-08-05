@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Professor Oak" script="prof.oak.lua" walkinterval="350000" floorchange="0" speed="0" lookdir="2">
+<health now="150" max="150"/>
+<look type="528" head="115" body="148" legs="39" feet="41"/>
+
+	<parameters>
+
+		<parameter key="message_greet" value="Bem Vindo |PLAYERNAME|, Voce precisa de {ajuda}?"/>
+
+	</parameters>
+
+</npc>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mark" script="default.lua" walkinterval="0" floorchange="0" speed="0">
+<health now="150" max="150"/>
+<look type="606" head="91" body="114" legs="86" feet="0"/>
+<parameters>
+<parameter key="message_greet" value="Olá amigo consumidor, eu tenho artigos para lhe ajudar em sua jornada, diga {trade} para ver as ofertas, ou {sell mais nome do item} para me vender algum loot!!"/>
+<parameter key="message_farewell" value="Good bye!"/>
+<parameter key="message_idletimeout" value="Good bye!"/>
+<parameter key="message_walkaway" value="Good bye!"/>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value= "poke ball,2394,500;
+great ball,2391,2000;
+super ball,2393,5000;
+ultra ball,2392,13000;
+small potion,12347,500;
+great potion,12348,1000;
+ultra potion,12346,2200;
+hyper potion,12345,5000;
+full restore,12343,10000;
+revive,12344,25000;
+medicine,12349,1000;"/>
+<parameter key="shop_sellable" value= "electric box,12176,2000;
+sandbag,12177,2000;
+comb,12179,5000;
+fur,12181,3300;
+ruby,12188,8000;
+essence of fire,12162,50;
+small stone,12337,50;
+pot of moss bug,12171,200;
+screw,12164,50;
+straw,2694,50;
+water gems,12161,50;
+remains of magikarp,12334,100;
+teeth,12175,200;
+bottle of poison,12165,50;
+water pendant,12170,200;
+feather,12200,500;
+seed,12163,50;
+pair of leaves,12155,200;
+apple bite,12173,200;
+bat wing,12182,400;
+pot of lava,12152,400;
+fire pendant,12286,200;
+bug venom,12185,400;
+bug antenna,12184,400;
+venom pendant,12282,200;
+pot of venom,12288,400;
+iron bracelet,12192,50;
+ice orb,12201,500;
+gosme,12202,500;
+darkness gem,12745,50;
+bug gosme,13783,50;
+enchanted gem,13785,50;
+horn,13789,1000;"/>
+</parameters>
+</npc>

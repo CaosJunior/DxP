@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ross" walkinterval="350000" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="516" head="63" body="98" legs="114" feet="114"/>
+	<parameters>
+			<parameter key="talkradius" value="0"/>
+	</parameters>
+</npc>

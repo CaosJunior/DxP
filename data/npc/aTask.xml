@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Amanda" script="task.lua" walkinterval="3000" floorchange="0" speed="50">
+<health now="100" max="100"/>
+<look type="511" head="95" body="116" legs="121" feet="115" addons="3"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|.I have some {task} for you!"/> </parameters>
+</npc>

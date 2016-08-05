@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Fuuinfake  " speed="0">
+
+	<health now="300" max="300"/>
+
+	<look type="520" head="23" body="23" legs="23" feet="23"/>
+
+	<parameters>
+
+
+	</parameters>
+
+</npc>

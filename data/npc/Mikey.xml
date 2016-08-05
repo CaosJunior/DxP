@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mikey" script="default.lua" walkinterval="3000" floorchange="0" access="5" level="1" maglevel="1">
+<health now="150" max="150"/>
+<look type="510" head="116" body="30" legs="124" feet="114"/>
+
+	<parameters>
+		<parameter key="message_greet" value="Hello, I love ghost Pokemon. They are cool!"/>
+	</parameters>
+
+</npc>

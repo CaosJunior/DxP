@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="President Sliph Cogmi" script= "default.lua" walkinterval="350000" floorchange="0" speed="0" lookdir="2">
+<health now="150" max="150"/>
+<look type="1419" head="95" body="132" legs="19" feet="116"/>
+
+	<parameters>
+		<parameter key="message_greet" value="Hello, this company has grown with much effort. This company is the leading manufacturer of technology Pokémon. Here we produce the Poké balls used by coaches to capture Pokémon!"/>
+	</parameters>
+
+</npc>
