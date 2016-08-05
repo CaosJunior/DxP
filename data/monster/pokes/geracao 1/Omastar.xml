@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Omastar" nameDescription="a omastar" race="rock" experience="1100" speed="225" manacost="0">
+    <health now="1700" max="1700"/>
+    <look type="543" head="65" body="85" legs="95" feet="113" corpse="11933"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+       <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Bite" interval="2805" chance="29" range="1"/>
+        <attack name="Rock Throw" interval="2852" chance="29" range="3"/>
+        <attack name="Waterball" interval="2946" chance="28" range="3"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Water Gun" interval="3040" chance="28" range="6"/> -->
+        <attack name="Harden" interval="5625" chance="18" range="6"/>
+		<attack name="Mud Shot" interval="2925" chance="24" range="3"/>
+        <attack name="Ancient Power" interval="4040" chance="20" range="6"/>
+        <attack name="Bubble Blast" interval="3322" chance="26" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="OMASTAR!"/>
+    </voices>
+    <loot>
+        <item id="12337" chance="100" countmax="60"/> --small stone
+        <item id="12196" chance="100" countmax="1"/> --stone orb
+        <item id="12161" chance="100" countmax="60"/> --water gem
+        <item id="12170" chance="100" count="1" countmax="1"/> --water pendant
+        <item id="11445" chance="5" count="1" countmax="1"/> --rock stone
+        <item id="11442" chance="5" count="1" countmax="1"/> --water stone
+        <item id="12580" chance="3" count="1" countmax="1"/> --Helix Fossil
+        <item id="13867" chance="100" count="1" countmax="1"/> --strange rock
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fearow" nameDescription="a fearow" race="flying" experience="650" speed="259" manacost="0">
+    <health now="1300" max="1300"/>
+    <look type="368" head="45" body="65" legs="95" feet="113" corpse="11876"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Quick Attack" interval="2617" chance="30" range="1"/> -->
+        <attack name="Sand Attack" interval="2476" chance="31" range="3"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Gust" interval="2758" chance="30" range="5"/> -->
+        <attack name="Drill Peck" interval="2852" chance="29" range="1"/>
+<!-- Magina nao pertence a esse pokemon 		<attack name="Rage" interval="2852" chance="20" range="4"/> -->
+		<attack name="Wing Attack" interval="2852" chance="20" range="5"/>
+<!-- Magina nao pertence a esse pokemon 		<attack name="Tornado" interval="4852" chance="20" range="4"/> -->
+		<attack name="Whirlwind" interval="2758" chance="20" range="5"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="FEAROW!"/>
+    </voices>
+    <loot>
+        <item id="12200" chance="50" count="1" countmax="1"/> --feather
+        <item id="12172" chance="30" count="1" countmax="1"/> --bird break
+        <item id="11453" chance="4" count="1" countmax="1"/> --heart stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

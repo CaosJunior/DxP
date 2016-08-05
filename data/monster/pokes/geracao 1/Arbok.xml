@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Arbok" nameDescription="a arbok" race="poison" experience="450" speed="245" manacost="0">
+    <health now="1300" max="1300"/>
+    <look type="390" head="25" body="45" legs="95" feet="113" corpse="11841"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Bite" interval="2711" chance="30" range="1"/>
+        <attack name="Poison Fang" interval="2946" chance="28" range="1"/>
+        <attack name="Sting Gun" interval="2899" chance="29" range="1"/>
+        <attack name="Acid" interval="2758" chance="30" range="3"/>
+		<attack name="Pin Missile" interval="2758" chance="20" range="3"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Fear" interval="5625" chance="18" range="3"/> -->
+        <attack name="Iron Tail" interval="3040" chance="28" range="1"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Rage" interval="3651" chance="24" range="1"/> -->
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="ARBOK!"/>
+    </voices>
+    <loot>
+        <item id="12165" chance="100" countmax="50"/> --bottles of poison
+        <item id="12282" chance="50" count="1"/> --venom pendant
+		<item id="13863" chance="20" count="1"/> --snake tail
+        <item id="11443" chance="3" count="1"/> --venom stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

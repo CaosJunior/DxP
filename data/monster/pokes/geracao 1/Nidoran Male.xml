@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidoran Male" nameDescription="a nidoran male" race="poison" experience="100" speed="224" manacost="0">
+    <health now="500" max="500"/>
+    <look type="417" head="5" body="25" legs="95" feet="113" corpse="11927"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Horn Attack" interval="2758" chance="30" range="1"/>
+        <attack name="Quick Attack" interval="2523" chance="31" range="2"/>
+        <attack name="Bite" interval="2758" chance="30" range="1"/>
+        <attack name="Poison Sting" interval="2711" chance="30" range="1"/>
+        <attack name="Poison Fang" interval="2946" chance="28" range="1"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="NIDORAN MALE!"/>
+    </voices>
+    <loot>
+        <item id="12157" chance="30" count="1" countmax="1"/> --nail
+        <item id="12165" chance="100" countmax="10"/> --bottles of poison
+        <item id="12282" chance="50" countmax="1"/> --venom pendant
+		<item id="13789" chance="30" countmax="1"/> --horn
+		<item id="13880" chance="10" count="1" countmax="1"/> --nidoran male ear
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

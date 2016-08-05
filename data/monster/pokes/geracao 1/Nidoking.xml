@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidoking" nameDescription="a nidoking" race="poison" experience="650" speed="229" manacost="0">
+    <health now="2100" max="2100"/>
+    <look type="386" head="55" body="75" legs="95" feet="113" corpse="11924"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Bite" interval="2664" chance="30" range="1"/> -->
+        <attack name="Quick Attack" interval="2523" chance="31" range="2"/>
+        <attack name="Horn Attack" interval="2758" chance="30" range="1"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Poison Sting" interval="2711" chance="30" range="1"/> -->
+        <attack name="Poison Fang" interval="2946" chance="28" range="1"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Stomp" interval="2946" chance="24" range="3"/> -->
+		<attack name="Rage" interval="3446" chance="28" range="3"/>
+<!-- Magina nao pertence a esse pokemon 		<attack name="Horn Drill" interval="3446" chance="28" range="3"/> -->
+<!-- Magina nao pertence a esse pokemon 		<attack name="Mega Punch" interval="3446" chance="28" range="1"/> -->
+<!-- Magina nao pertence a esse pokemon 		<attack name="Shockwave" interval="3446" chance="28" range="3"/> -->
+		<attack name="Fear" interval="3446" chance="28" range="3"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="NIDOKING!"/>
+    </voices>
+    <loot>
+        <item id="12157" chance="70" count="1" countmax="1"/> --nail
+        <item id="11443" chance="5" count="1" countmax="1"/> --venom stone
+        <item id="11451" chance="5" count="1" countmax="1"/> --earth stone
+		<item id="13789" chance="80" countmax="1"/> --horn
+        <item id="12178" chance="20" count="1" countmax="1"/> --long horn
+        <item id="12240" chance="40" count="1" countmax="1"/> --bag of poisonus dust
+        <item id="12165" chance="100" countmax="70"/> --bottles of poison
+        <item id="12282" chance="50" countmax="1"/> --venom pendant
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

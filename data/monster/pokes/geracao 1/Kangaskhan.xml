@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kangaskhan" nameDescription="a kangaskhan" race="normal" experience="1100" speed="227" manacost="0">
+    <health now="1800" max="1800"/>
+    <look type="549" head="60" body="85" legs="95" feet="113" corpse="11902"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Mega Punch" interval="2852" chance="29" range="1"/>
+        <attack name="Bite" interval="2899" chance="29" range="1"/>
+        <attack name="Headbutt" interval="2899" chance="29" range="1"/>
+        <attack name="Dizzy Punch" interval="3275" chance="26" range="1"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Earthshock" interval="3040" chance="28" range="6"/> -->
+        <attack name="Rage" interval="4322" chance="26" range="3"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Shockwave" interval="3228" chance="27" range="6"/> -->
+        <attack name="Epicenter" interval="4450" chance="19" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0">
+    </defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="KANGASKHAN!"/>
+    </voices>
+    <loot>
+        <item id="12337" chance="100" countmax="80"/> --small stone
+        <item id="12196" chance="50" countmax="1"/> --stone orb
+        <item id="12177" chance="100" countmax="1"/> --sandbag --sandbag
+        <item id="11451" chance="5" count="1" countmax="1"/> --earth stone
+        <item id="13888" chance="20" count="1" countmax="1"/> --kangskhan war
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

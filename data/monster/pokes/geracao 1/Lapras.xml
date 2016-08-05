@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lapras" nameDescription="a lapras" race="water" experience="1100" speed="232" manacost="0">
+    <health now="1700" max="1700"/>
+    <look type="544" head="60" body="85" legs="95" feet="113" corpse="11906"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag passive="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Horn Attack" interval="2805" chance="29" range="1"/> -->
+        <attack name="Ice Shards" interval="2993" chance="28" range="4"/>
+        <attack name="Waterball" interval="2946" chance="28" range="4"/>
+        <attack name="Water Gun" interval="2993" chance="28" range="6"/>
+        <attack name="Aurora Beam" interval="2946" chance="28" range="6"/>
+        <attack name="Hydropump" interval="3940" chance="28" range="4"/>
+        <attack name="Sing" interval="5069" chance="26" range="3"/>
+        <attack name="Ice Beam" interval="3510" chance="25" range="6"/>
+        <attack name="Blizzard" interval="4309" chance="20" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="LAPRAS!"/>
+    </voices>
+    <loot>
+        <item id="12161" chance="100" countmax="50"/> --water gem
+        <item id="12170" chance="50" count="1" countmax="1"/> --water pendant
+        <item id="12201" chance="100" count="1" countmax="1"/> --ice orb
+		<item id="13794" chance="100" countmax="40"/> --snowball
+        <item id="13789" chance="30" countmax="1"/> --horn
+        <item id="11442" chance="4" count="1" countmax="1"/> --water stone
+        <item id="11454" chance="4" count="1" countmax="1"/> --ice stone
+        <item id="12338" chance="1" count="1"/> --bag box --bag box
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

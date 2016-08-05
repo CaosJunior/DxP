@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gyarados" nameDescription="a gyarados" race="water" experience="1100" speed="247" manacost="0">
+    <health now="1700" max="1700"/>
+    <look type="468" head="70" body="90" legs="95" feet="113" corpse="11888"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Bite" interval="2805" chance="29" range="1"/>
+        <attack name="Aqua Tail" interval="2852" chance="29" range="1"/>
+        <attack name="Waterball" interval="2946" chance="28" range="4"/>
+        <attack name="Twister" interval="2899" chance="29" range="3"/>
+        <attack name="Dragon Breath" interval="3040" chance="28" range="6"/>
+        <attack name="Roar" interval="5604" chance="24" range="4"/>
+        <attack name="Hyper Beam" interval="3510" chance="25" range="6"/>
+        <attack name="Hydropump" interval="3839" chance="23" range="5"/>
+    </attacks>
+       <defenses armor="0" defense="0">
+	</defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="GYARADOS!"/>
+    </voices>
+    <loot>
+        <item id="12161" chance="100" countmax="100"/> --water gem
+        <item id="12170" chance="90" count="1" countmax="2"/> --water pendant 
+        <item id="11442" chance="6" count="1" countmax="1"/> --water stone
+        <item id="11449" chance="5" count="1" countmax="1"/> --crystal stone
+        <item id="12148" chance="30" count="1" countmax="1"/> --gyarados tail
+        <item id="12338" chance="1" count="1"/> --bag box --bag box
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

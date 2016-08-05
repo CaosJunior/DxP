@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Chansey" nameDescription="a chansey" race="normal" experience="650" speed="217" manacost="0">
+    <health now="1400" max="1400"/>
+    <look type="355" head="45" body="70" legs="95" feet="113" corpse="11850"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag passive="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Doubleslap" interval="2617" chance="30" range="1"/>
+        <attack name="Egg Bomb" interval="2899" chance="29" range="4"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Body Slam" interval="2946" chance="28" range="1"/> -->
+        <attack name="Great Love" interval="4134" chance="27" range="1"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Selfheal" interval="5120" chance="20" range="6"/> -->
+        <attack name="Healarea" interval="5120" chance="20" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="CHANSEY!"/>
+    </voices>
+    <loot>
+        <item id="12179" chance="50" count="1" countmax="1"/> --comb
+        <item id="11453" chance="4" count="1" countmax="1"/> --heart stone
+        <item id="12211" chance="10" count="1" countmax="5"/> --big egg
+        <item id="12338" chance="1" count="1"/> --bag box --bag box
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Machoke" nameDescription="a machoke" race="fighting" experience="450" speed="225" manacost="0">
+    <health now="1200" max="1200"/>
+    <look type="464" head="35" body="55" legs="95" feet="113" corpse="11909"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Triple Punch" interval="2758" chance="30" range="1"/>
+        <attack name="Mega Punch" interval="2805" chance="29" range="1"/>
+        <attack name="Karate Chop" interval="2805" chance="29" range="1"/>
+        <attack name="Ground Chop" interval="4852" chance="29" range="4"/>
+        <attack name="Mega Kick" interval="3134" chance="27" range="1"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Fist Machine" interval="3604" chance="24" range="6"/> -->
+        <attack name="Strafe" interval="4625" chance="18" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="MACHOKE!"/>
+    </voices>
+    <loot>
+        <item id="12195" chance="20" countmax="1"/> --champion belt
+        <item id="11446" chance="4" count="1" countmax="1"/> --punch stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
