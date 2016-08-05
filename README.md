@@ -2,7 +2,7 @@
 Servidor de Poketibia DxP (http://www.xtibia.com/forum/topic/241128-).
 
 # Créditos
-•CipSoft
+•CipSoft</br>
 •Nintendo
 •TFS Team
 •Dark X Poke
