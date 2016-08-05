@@ -1,4 +1,4 @@
-# DxP
+# Projeto DxP
 Servidor de Poketibia DxP (<a href=http://www.xtibia.com/forum/topic/241128->Tópico do Servidor</a>).
 
 # Créditos
