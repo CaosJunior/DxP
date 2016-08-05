@@ -1,20 +1,20 @@
 # DxP
-Servidor de Poketibia DxP (http://www.xtibia.com/forum/topic/241128-).
+Servidor de Poketibia DxP (<a=http://www.xtibia.com/forum/topic/241128->test</a>).
 
 # Créditos
 •CipSoft</br>
-•Nintendo
-•TFS Team
-•Dark X Poke
-•PXG
-•Tom Lukz (Smix)
-•Allan Harlen (Kttallan/lordsorte)
-•Eduardo Meskita (FuuinFake)
-•Noninhouh
-•Tony Araujo
-•Taiger/Dudu
-•Drakopoulos
-•Justiceiro751
-•Techrlz
-•RicardoRox
+•Nintendo</br>
+•TFS Team</br>
+•Dark X Poke</br>
+•PXG</br>
+•Tom Lukz (Smix)</br>
+•Allan Harlen (Kttallan/lordsorte)</br>
+•Eduardo Meskita (FuuinFake)</br>
+•Noninhouh</br>
+•Tony Araujo</br>
+•Taiger/Dudu</br>
+•Drakopoulos</br>
+•Justiceiro751</br>
+•Techrlz</br>
+•RicardoRox</br>
 •Yago (SirDubstep/CaosJunior)
