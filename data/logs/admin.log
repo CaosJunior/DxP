@@ -1,0 +1,26 @@
+[25/06/2014 12:50:49] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Jamil sent unknown byte: 0x24ff164
+
+[25/06/2014 12:51:42] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Jamil sent unknown byte: 0x24ff164
+
+[25/06/2014 12:51:42] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Jamil sent unknown byte: 0x24ff164
+
+[25/06/2014 12:51:42] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Jamil sent unknown byte: 0x24ff164
+
+[25/06/2014 12:51:43] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Jamil sent unknown byte: 0x24ff164
+
+[25/06/2014 12:51:43] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Jamil sent unknown byte: 0x24ff164
+
+[25/06/2014 12:51:43] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Jamil sent unknown byte: 0x24ff164
+
+[25/06/2014 12:51:43] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Jamil sent unknown byte: 0x24ff164
+
+[25/06/2014 12:51:43] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Jamil sent unknown byte: 0x24ff164
+
+[25/06/2014 17:31:08] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Black Movier sent unknown byte: 0x24bf164
+
+[25/06/2014 17:31:17] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Black Movier sent unknown byte: 0x24bf164
+
+[01/03/2016 13:17:03] (Error - void ServicePort::open(uint16_t)) NETWORK: Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso
+[01/03/2016 13:17:37] (Error - void ServicePort::open(uint16_t)) NETWORK: Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso
+[01/03/2016 13:18:50] (Error - void ServicePort::open(uint16_t)) NETWORK: Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso
+[01/03/2016 13:32:57] (Error - void ServicePort::open(uint16_t)) NETWORK: Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso
