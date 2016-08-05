@@ -1,5 +1,5 @@
 # DxP
-Servidor de Poketibia DxP (<a=http://www.xtibia.com/forum/topic/241128->test</a>).
+Servidor de Poketibia DxP (<a href=http://www.xtibia.com/forum/topic/241128->test</a>).
 
 # Créditos
 •CipSoft</br>
