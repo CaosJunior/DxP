@@ -1,0 +1,97 @@
+function onCreatureTurn(creature)
+end
+
+function msgcontains(txt, str)
+return (string.find(txt, str) and not string.find(txt, '(%w+)' .. str) and not string.find(txt, str .. '(%w+)'))
+end
+
+local talkState = {}
+local focus = 0
+local talk_start = 0
+local lookNpcDir = getNPCXMLLOOKDIR(getNPCXMLNAME(getThis()))
+local tchau = false
+
+function onCreatureSay(cid, type, msg)
+local msg = string.lower(msg)
+local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
+if not (getDistanceToCreature(cid) <= 3) then
+	return true
+end
+
+if msgcontains(string.lower(msg), 'hi') then
+	if focus ~= 0 then
+	   selfSay(getCreatureName(cid) .. ' aguarde...')
+	   return true
+	else
+		focus = cid
+		talk_start = os.clock()
+	end
+end
+
+local storBro = getPlayerStorageValue(cid, storages.BrotherHoodMember)
+local dif = {"easy", "medio", "hard", "expert"}
+
+if((msgcontains(string.lower(msg), 'hi')) and (getDistanceToCreature(cid) <= 3)) then
+   selfSay("Olá! Tudo bem? Sou o Mestre do Brotherhood Club. O que deseja?") 
+   talkState[talkUser] = 1
+elseif((msgcontains(string.lower(msg), 'help')) and (getDistanceToCreature(cid) <= 3) and talkState[talkUser] == 1) then
+	
+	if storBro == -1 then -- nao participa do club
+	   selfSay("Posso lhe conseder uma vaga em nosso club, mas vai ser dificil o processo. Diga 'participar', caso queira entra para o grupo.")
+	else
+	   selfSay("Posso mudar seu rank no club por 10 mil dolares. Os nives são 'Easy', 'Medio', 'Hard', 'Expert'.")
+	end
+	
+	talkState[talkUser] = 2
+elseif((msgcontains(string.lower(msg), 'participar')) and (getDistanceToCreature(cid) <= 3) and talkState[talkUser] == 2) then
+	
+	selfSay("Seja bem vindo a Duelist Brotherhood. Você é um membro INICIANTE. A dificuldade do seu rank esta no modo 'Easy'.")
+	selfSay("Nos procuramos foras da lei e para se tornar um membro SENIOR preciso que mate 500 deles. Volte quando estiver pronto.")
+	setPlayerStorageValue(cid, storages.BrotherHoodMember, 1)
+	setPlayerStorageValue(cid, storages.BrotherHoodMemberRANK, "Easy")
+	talkState[talkUser] = 2
+	tchau = true
+	focus = 0
+
+elseif isInArray(dif, string.lower(msg)) and getDistanceToCreature(cid) <= 3 and talkState[talkUser] == 2) then
+
+	if doPlayerRemoveMoney(cid, 10000) then
+	   setPlayerStorageValue(cid, storages.BrotherHoodMemberRANK, doCorrectString(msg))
+	   selfSay("A dificuldade do seu rank agora esta em '"..doCorrectString(msg).."'.")
+	else
+	   selfSay("Dinheiro insuficiente.")
+	end	
+	tchau = true
+	focus = 0	
+
+elseif msgcontains(string.lower(msg), 'bye') then
+	tchau = true
+	focus = 0
+end
+
+return true
+end
+
+
+function onThink()
+	if focus  ~= 0 then
+		if getDistanceToCreature(focus) > 3 then
+			tchau = true
+			focus = 0
+		end
+
+		if (os.clock() - talk_start) > 15 then
+			if focus > 0 then
+				tchau = true
+				focus = 0
+			end
+		end
+		doNpcSetCreatureFocus(focus)
+	end
+
+		if tchau then
+			tchau = false
+			doCreatureSetLookDir(getThis(), lookNpcDir)
+			selfSay('Tchau.')
+		end
+end
