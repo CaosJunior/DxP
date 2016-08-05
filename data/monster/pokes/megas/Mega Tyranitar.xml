@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mega Tyranitar" nameDescription="a mega tyranitar" race="dark" experience="1100" speed="227" manacost="0">
+    <health now="190" max="190"/>
+  <look type="1665" head="65" body="85" legs="95" feet="113" corpse="10522"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+ <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-26" max="-49"/>
+	<attack name="Bite" interval="2476" chance="31" range="1"/>
+	<attack name="Shadowave" interval="3640" chance="28" range="4"/>
+        <attack name="Crunch" interval="2664" chance="30" range="1"/>
+        <attack name="Rock Slide" interval="2664" chance="30" range="4"/>
+        <attack name="Dark Pulse" interval="2664" chance="30" range="4"/>
+        <attack name="Stone Edge" interval="3040" chance="28" range="6"/>
+	<attack name="Rock Throw" interval="3640" chance="28" range="6"/>
+	<attack name="Earthquake" interval="4040" chance="28" range="6"/>
+        <attack name="Scary Face" interval="3416" chance="26" range="6"/>
+        <attack name="Hyper Beam" interval="3040" chance="28" range="6"/>
+    </attacks>
+  <voices interval="5000" chance="10">
+	<voice sentence="TYYY!"/>
+<voice sentence="RANITAAR!"/>
+<voice sentence="TYRANITAR!"/>
+<voice sentence="MEGA TYRANITAR!"/>
+  </voices>
+ <loot>
+        <item id="12196" chance="5000" countmax="1"/> --stone orb
+        <item id="12337" chance="10000" countmax="80"/> --small stone
+        <item id="12244" chance="150" count="1" countmax="1"/> --ancient stone
+        <item id="11445" chance="150" count="1" countmax="1"/>
+        <item id="12338" chance="10" count="1"/> --bag box --bag box
+        <item id="13871" chance="4000" count="1" countmax="1"/> --tyranitar tail
+        <item id="13867" chance="4000" count="1" countmax="1"/> --strange rock
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

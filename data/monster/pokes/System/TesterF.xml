@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Testef" nameDescription="a Testef" race="normal" experience="0" speed="180" manacost="0">
+  <health now="14444444" max="14444444"/>
+  <look type="1713" head="25" body="25" legs="56" feet="56" corpse="3065"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="0"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+</flags>
+
+<attacks>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+  <loot>
+  </loot>
+
+<script>
+	<event name="Spawn"/>
+</script>
+
+</monster>

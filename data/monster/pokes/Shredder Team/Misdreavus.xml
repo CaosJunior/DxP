@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Misdreavus" nameDescription="a misdreavus" race="ghost" experience="976" speed="127" manacost="0">
+    <health now="130" max="130"/>
+  <look type="908" head="65" body="90" legs="95" feet="113" corpse="0"/>
+	<targetchange interval="10000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   <flag hungerdelay="15"/>
+</flags>
+  <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Psybeam" interval="2070" chance="30" range="6"/>
+        <attack name="Shadow Ball" interval="2011" chance="30" range="6"/>
+        <attack name="Night Shade" interval="2505" chance="29" range="5"/>
+        <attack name="InvisibleGhost" interval="5048" chance="18" range="6"/>
+        <attack name="Psywave" interval="2084" chance="30" range="6"/>
+		<attack name="Fear" interval="5584" chance="15" range="5"/>
+		<attack name="Night Daze" interval="4548" chance="25" range="6"/>
+		<attack name="Confuse Ray" interval="3498" chance="22" range="6"/>
+		<attack name="Dark Eye" interval="3048" chance="25" range="6"/>
+      </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="MIIIS!"/>
+<voice sentence="DREAAVUS!"/>
+<voice sentence="MISDREAVUS!"/>
+  </voices>
+  <loot>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+
