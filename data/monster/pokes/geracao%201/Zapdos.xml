@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zapdos" nameDescription="a zapdos" race="electric" experience="1000" speed="387" manacost="0">
+  <health now="210" max="210"/>
+  <look type="550" head="100" body="100" legs="95" feet="113" corpse="11987"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+</flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Thunder Bolt" interval="1500" chance="80" range="10"/>
+        <attack name="Thunder Wave" interval="2500" chance="80" range="6"/>
+        <attack name="Drill Peck" interval="2000" chance="80" range="1"/>
+        <attack name="Tornado" interval="3000" chance="80" range="5"/>
+        <attack name="Wing Attack" interval="2500" chance="80" range="1"/>
+        <attack name="Thunder" interval="3000" chance="80" range="4"/>
+        <attack name="Electric Storm" interval="4000" chance="80" range="6"/>
+		<attack name="Aerial Ace" interval="4000" chance="80" range="6"/>
+		<attack name="Electro Field" interval="4000" chance="80" range="6"/>
+		<attack name="Roost" interval="5000" chance="80" range="6"/>
+    </attacks>
+<defenses armor="0" defense="0">
+</defenses>
+ <voices interval="5000" chance="10">
+ <voice sentence="ZAPDOS!"/>
+ </voices>
+  <loot>
+    <item id="12164" chance="3500" count="1" countmax="1"/>
+    <item id="12198" chance="3500" count="1" countmax="1"/> 
+    <item id="12176" chance="3500" count="1" countmax="1"/>
+    <item id="11444" chance="3500" count="1" countmax="1"/>  
+    <item id="12150" chance="500" count="1" countmax="1"/>	
+        <item id="12338" chance="10" count="1"/> --bag box --bag box
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

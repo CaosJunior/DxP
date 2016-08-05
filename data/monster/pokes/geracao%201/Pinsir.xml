@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pinsir" nameDescription="a pinsir" race="bug" experience="650" speed="225" manacost="0">
+    <health now="1600" max="1600"/>
+    <look type="404" head="35" body="60" legs="95" feet="113" corpse="11942"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Scratch" interval="2805" chance="29" range="1"/> -->
+<!-- Magina nao pertence a esse pokemon         <attack name="Slash" interval="2946" chance="28" range="1"/> -->
+        <attack name="Bug Bite" interval="2805" chance="29" range="1"/>
+        <attack name="Guillotine" interval="3510" chance="25" range="1"/>
+        <attack name="Harden" interval="5625" chance="18" range="6"/>
+        <attack name="X-Scissor" interval="3369" chance="26" range="3"/>
+		<attack name="Fury Cutter" interval="3569" chance="26" range="3"/>
+        <attack name="Rage" interval="4510" chance="18" range="1"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="PINSIR!"/>
+    </voices>
+    <loot>
+        <item id="13783" chance="100" countmax="80"/> --bug gosme
+        <item id="11448" chance="5" count="1" countmax="1"/> --coccon stone
+        <item id="12338" chance="1" count="1"/> --bag box --bag box
+        <item id="12141" chance="40" countmax="1"/> --pinsir horn
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

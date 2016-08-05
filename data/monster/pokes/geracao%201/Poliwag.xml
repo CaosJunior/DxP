@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Poliwag" nameDescription="a poliwag" race="water" experience="100" speed="207" manacost="0">
+    <health now="300" max="300"/>
+    <look type="462" head="1" body="15" legs="95" feet="113" corpse="11943"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Doubleslap" interval="2476" chance="31" range="1"/>
+        <attack name="Bubbles" interval="2570" chance="31" range="3"/>
+        <attack name="Water Gun" interval="2758" chance="30" range="6"/>
+        <attack name="Aqua Tail" interval="2664" chance="30" range="1"/>
+        <attack name="Hypnosis" interval="4920" chance="20" range="4"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="POLIWAG!"/>
+    </voices>
+    <loot>
+        <item id="12161" chance="100" countmax="10"/> --water gem
+        <item id="12170" chance="30" count="1" countmax="1"/> --water pendant
+		<item id="13865" chance="10" count="1" countmax="1"/> --strange ting
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
