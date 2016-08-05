@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Miltank" nameDescription="a miltank" race="normal" experience="1100" speed="227" manacost="0">
+    <health now="180" max="180"/>
+  <look type="946" head="60" body="85" legs="95" feet="113" corpse="3577"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Headbutt" interval="2852" chance="29" range="1"/> -->
+        <attack name="Body Slam" interval="2899" chance="29" range="1"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Hyper Beam" interval="2899" chance="29" range="6"/> -->
+        <attack name="Stomp" interval="3275" chance="26" range="5"/>
+        <attack name="Rollout" interval="3640" chance="28" range="6"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Selfheal" interval="5322" chance="26" range="6"/> -->
+<!-- Magina nao pertence a esse pokemon         <attack name="Healarea" interval="5628" chance="27" range="6"/> -->
+    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="MIIIL!"/>
+<voice sentence="TAAANK!"/>
+<voice sentence="MILTANK!"/>
+  </voices>
+	<loot>
+        <item id="11453" chance="5" count="1" countmax="1"/> --heart stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

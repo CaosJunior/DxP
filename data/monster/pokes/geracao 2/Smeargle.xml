@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Smeargle" nameDescription="a smeagle" race="normal" experience="1100" speed="253" manacost="0">
+    <health now="180" max="180"/>
+  <look type="942" head="35" body="55" legs="95" feet="113" corpse="4437"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+ <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Sketch 1" interval="2758" chance="30" range="6"/>
+        <attack name="Sketch 2" interval="2899" chance="29" range="6"/>
+        <attack name="Sketch 3" interval="2805" chance="29" range="6"/>
+        <attack name="Sketch 4" interval="3087" chance="28" range="6"/>
+		<attack name="Sketch 5" interval="3087" chance="28" range="6"/>
+		<attack name="Sketch 6" interval="3087" chance="28" range="6"/>
+	    <attack name="Sketch 7" interval="3287" chance="28" range="6"/>
+        <attack name="Sketch 8" interval="3980" chance="22" range="6"/>
+	    <attack name="Sketch 9" interval="3246" chance="28" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="SMEE!"/>
+<voice sentence="ARGLEE!"/>
+<voice sentence="SMEARGLE!"/>
+  </voices>
+  <loot>
+        <item id="11453" chance="50" count="1" countmax="1"/> --heart stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

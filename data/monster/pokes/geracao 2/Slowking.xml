@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Slowking" nameDescription="a slowking" race="psychic" experience="1100" speed="217" manacost="0">
+    <health now="150" max="150"/>
+  <look type="916" head="40" body="60" legs="95" feet="113" corpse="4435"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Water Gun" interval="3040" chance="28" range="6"/>
+        <attack name="Waterball" interval="2946" chance="28" range="6"/>
+        <attack name="Psy Ball" interval="2711" chance="30" range="6"/>
+        <attack name="Confusion" interval="2805" chance="29" range="6"/>
+	<attack name="Psychic" interval="2955" chance="29" range="6"/>
+	<attack name="Psy Impact" interval="3105" chance="29" range="6"/>
+	<attack name="Calm Mind" interval="3105" chance="29" range="6"/>
+	<attack name="Power Wave" interval="3105" chance="29" range="6"/>
+	<attack name="Miracle Eye" interval="3205" chance="29" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="SLOOOW!"/>
+<voice sentence="KIING!"/>
+<voice sentence="SLOOWKING!"/>
+  </voices>
+   <loot>
+        <item id="12197" chance="40" count="1" countmax="1"/> --slowpoke tail
+        <item id="12161" chance="100" countmax="80"/> --water gem
+        <item id="12170" chance="50" count="1" countmax="1"/> --water pendant
+		<item id="13785" chance="100" countmax="80"/> --enchanted gem
+        <item id="12244" chance="4" count="1" countmax="1"/> --ancient stone
+        <item id="11452" chance="4" count="1" countmax="1"/> --enigma stone
+        <item id="12283" chance="50" count="1" countmax="1"/> --water orb
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

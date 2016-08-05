@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Celebi" nameDescription="a celebi" race="grass" experience="10000" speed="400" manacost="0">
+  <health now="40" max="40"/>
+  <look type="960" head="90" body="100" legs="95" feet="113" corpse="3274"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Giga Drain" interval="2852" chance="80" range="10"/> -->
+<!-- Magina nao pertence a esse pokemon         <attack name="Magical Leaf" interval="2758" chance="80" range="8"/> -->
+<!-- Magina nao pertence a esse pokemon         <attack name="Leaf Blade" interval="2993" chance="80" range="8"/> -->
+<!-- Magina nao pertence a esse pokemon         <attack name="Psyusion" interval="2711" chance="80" range="8"/> -->
+<!-- Magina nao pertence a esse pokemon         <attack name="Psychic" interval="3087" chance="80" range="6"/> -->
+<!-- Magina nao pertence a esse pokemon         <attack name="Petal Dance" interval="3557" chance="80" range="6"/> -->
+        <attack name="Leaf Storm" interval="4779" chance="80" range="8"/>
+        <attack name="Sleep Powder" interval="5766" chance="80" range="3"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Petal Tornado" interval="4497" chance="80" range="5"/> -->
+<!-- Magina nao pertence a esse pokemon         <attack name="Aromateraphy" interval="5202" chance="80" range="8"/> -->
+        <attack name="Reflect" interval="4826" chance="80" range="8"/>
+    </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="CEEEE!"/>
+<voice sentence="LEBIII!"/>
+<voice sentence="CELEBI!"/>
+  </voices>
+  <loot>
+        <item id="12338" chance="10" count="1"/> --bag box --bag box
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

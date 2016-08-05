@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Unown" nameDescription="an unown" race="normal" experience="650" speed="258" manacost="0">
+  <health now="40" max="40"/>
+  <look type="961" head="32" body="57" legs="95" feet="113" corpse="4568"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+	  <attack name="melee" interval="2000" chance="100" range="1" min="-25" max="-40"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="AIIPOM!"/>
+<voice sentence="AAII!"/>
+<voice sentence="PPOOM!"/>
+  </voices>
+  <loot>
+        <item id="12338" chance="10" count="1"/> --bag box --bag box
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

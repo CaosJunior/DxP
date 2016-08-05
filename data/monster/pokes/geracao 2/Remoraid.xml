@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Remoraid" nameDescription="a remoraid" race="water" experience="100" speed="207" manacost="0">
+    <health now="30" max="30"/>
+  <look type="929" head="1" body="15" legs="95" feet="113" corpse="4429"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Water Gun" interval="2758" chance="30" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="REMOO!"/>
+<voice sentence="RAAID!"/>
+<voice sentence="REMORAID!"/>
+  </voices>
+ <loot>
+        <item id="12161" chance="100" countmax="80"/> --water gem
+        <item id="13866" chance="40" count="1" countmax="1"/> --tentacle
+        <item id="12170" chance="50" count="1" countmax="1"/> --water pendant
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+

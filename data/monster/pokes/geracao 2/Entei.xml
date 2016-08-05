@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Entei" nameDescription="an entei" race="fire2" experience="10000" speed="340" manacost="0">
+  <health now="40" max="40"/>
+  <look type="956" head="90" body="100" legs="95" feet="113" corpse="0"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+<script>
+<event name="Spawn"/>
+</script>
+  <attacks>
+    <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+    <attack name="Roar" interval="2570" chance="80" range="3"/>
+    <attack name="Ember" interval="2664" chance="80" range="10"/>
+    <attack name="Fireball" interval="3040" chance="80" range="10"/>
+	<attack name="Sacred Fire" interval="3040" chance="80" range="10"/>
+	<attack name="Flamethrower" interval="3040" chance="80" range="4"/>
+    <attack name="Tri Flames" interval="2852" chance="80" range="5"/>
+	<attack name="Fire Blast" interval="3446" chance="80" range="6"/>
+    <attack name="Inferno" interval="3246" chance="80" range="6"/>
+	<attack name="Magma Storm" interval="3246" chance="80" range="6"/>
+	<attack name="War Dog" interval="3246" chance="80" range="6"/>
+	<attack name="Eruption" interval="3246" chance="80" range="1"/>
+    </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="EEEN!"/>
+<voice sentence="TEEEI!"/>
+<voice sentence="ENTEI!"/>
+  </voices>
+  <loot>
+  </loot>
+</monster>

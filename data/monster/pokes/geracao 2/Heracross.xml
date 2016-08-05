@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Heracross" nameDescription="a heracross" race="bug" experience="1100" speed="262" manacost="0">
+  <health now="40" max="40"/>
+  <look type="915" head="60" body="77" legs="95" feet="113" corpse="3295"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-92" max="-136"/>
+<!-- Magina nao pertence a esse pokemon 		<attack name="Triple Punch" interval="3040" chance="28" range="1"/> -->
+<!-- Magina nao pertence a esse pokemon 		<attack name="Slash" interval="2946" chance="28" range="1"/> -->
+<!-- Magina nao pertence a esse pokemon 		<attack name="Bug Bite" interval="2645" chance="24" range="1"/> -->
+		<attack name="Mega Punch" interval="2810" chance="25" range="1"/>
+<!-- Magina nao pertence a esse pokemon 		<attack name="Karate Chop" interval="2945" chance="24" range="1"/> -->
+<!-- Magina nao pertence a esse pokemon 		<attack name="Mega Kick" interval="2750" chance="25" range="1"/> -->
+<!-- Magina nao pertence a esse pokemon 		<attack name="Strafe" interval="4946" chance="28" range="6"/> -->
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="HERAA!"/>
+<voice sentence="CROOSS!"/>
+<voice sentence="HERACROSS!"/>
+  </voices>
+  <loot>
+	<item id="11446" countmax="1" chance="5"/> -- punch stone
+        <item id="11448" countmax="1" chance="5"/> -- coccon stone
+        <item id="12171" chance="50" count="1" countmax="1"/> --pot of moss bug
+        <item id="12183" chance="40" count="1" countmax="1"/> --some mushroom
+		<item id="13789" chance="30" countmax="1"/> --horn
+		<item id="13783" chance="100" countmax="80"/> --bug gosme
+        <item id="12184" chance="50" count="1" countmax="1"/> --bug antenna
+        <item id="12185" chance="50" count="1" countmax="1"/> --bug antenna
+        <item id="12192" chance="50" countmax="1"/> --iron bracelet
+        <item id="13876" chance="40" count="1" countmax="1"/> -- insect foot
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

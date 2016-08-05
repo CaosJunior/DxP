@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Skarmory" nameDescription="a skarmory" race="steel" experience="1100" speed="335" manacost="0">
+  <health now="40" max="40"/>
+  <look type="936" head="60" body="77" legs="95" feet="113" corpse="4433"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Quick Attack" interval="2617" chance="30" range="1"/> -->
+        <attack name="Sand Attack" interval="2476" chance="31" range="3"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Whirlwind" interval="2758" chance="20" range="5"/> -->
+<!-- Magina nao pertence a esse pokemon         <attack name="Drill Peck" interval="2852" chance="25" range="1"/> -->
+<!-- Magina nao pertence a esse pokemon 		<attack name="Wing Attack" interval="2852" chance="20" range="5"/> -->
+<!-- Magina nao pertence a esse pokemon 		<attack name="Tornado" interval="4852" chance="20" range="4"/> -->
+<!-- Magina nao pertence a esse pokemon 		<attack name="Strafe" interval="3952" chance="20" range="4"/> -->
+  </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="SKAAR!"/>
+<voice sentence="MOORY!"/>
+<voice sentence="SKARMORY!"/>
+  </voices>
+  <loot>
+        <item id="12200" chance="50" count="1" countmax="1"/> --feather
+        <item id="12172" chance="50" count="1" countmax="1"/> --bird break
+        <item id="12241" chance="50" count="1" countmax="1"/> --steel wing
+        <item id="11453" chance="5" count="1" countmax="1"/> --heart stone
+        <item id="12232" chance="5" count="1" countmax="1"/> --metal coat
+        <item id="12250" chance="20" count="1" countmax="1"/> --steel ore
+        <item id="13868" chance="40" count="1" countmax="1"/> --skarmory wing
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

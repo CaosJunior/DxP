@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Typhlosion" nameDescription="a typhlosion" race="fire" experience="1100" speed="247" manacost="0">
+    <health now="170" max="170"/>
+  <look type="675" head="80" body="90" legs="95" feet="113" corpse="4453"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Swift" interval="1970" chance="30" range="1"/>
+        <attack name="Ember" interval="1864" chance="30" range="4"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Fireball" interval="1940" chance="30" range="4"/> -->
+	<attack name="Flamethrower" interval="2040" chance="30" range="4"/>
+        <attack name="Eruption" interval="2552" chance="30" range="4"/>
+	<attack name="SmokeScreen" interval="5446" chance="15" range="6"/>
+        <attack name="Inferno" interval="3046" chance="25" range="6"/>
+        <attack name="Flame Wheel" interval="3000" chance="25" range="6"/>
+        <attack name="Defense Curl" interval="4546" chance="15" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="TY!"/>
+<voice sentence="TYPHLOSION!"/>
+  </voices>
+ <loot>
+        <item id="11447" chance="5" countmax="1"/> --fire stone
+        <item id="12271" chance="30" countmax="1"/> --magma box
+        <item id="12342" chance="50" countmax="1"/> --pot with fire
+        <item id="12152" chance="50" countmax="1"/> --pot of lava
+        <item id="12157" chance="50" countmax="1"/> --nail
+        <item id="12162" chance="100" countmax="80"/> --essence of fire
+        <item id="13881" chance="40" count="1" countmax="1"/> --
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

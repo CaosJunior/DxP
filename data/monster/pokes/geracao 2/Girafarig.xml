@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Girafarig" nameDescription="a girafarig" race="psychic" experience="1100" speed="192" manacost="0">
+  <health now="40" max="40"/>
+  <look type="904" head="61" body="77" legs="95" feet="113" corpse="9081"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-26" max="-49"/>
+        <attack name="Tackle" interval="2040" chance="28" range="1"/>
+	<attack name="Confusion" interval="2617" chance="25" range="5"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Psybeam" interval="1040" chance="30" range="5"/> -->
+        <attack name="Crunch" interval="1025" chance="30" range="1"/>
+        <attack name="Psychic" interval="1510" chance="30" range="6"/>
+	<attack name="Stomp" interval="4510" chance="20" range="3"/>
+	<attack name="Assurance" interval="2010" chance="25" range="4"/>
+	<attack name="Agility" interval="4510" chance="15" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="GIRAA!"/>
+<voice sentence="FARIIG!"/>
+<voice sentence="GIRAFARIG!"/>
+  </voices>
+  <loot>
+	<item id="12194" countmax="1" chance="50"/> -- future orb
+	<item id="11452" countmax="1" chance="4"/> -- enigma stone
+	<item id="13785" chance="100" countmax="80"/> --enchanted gem
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

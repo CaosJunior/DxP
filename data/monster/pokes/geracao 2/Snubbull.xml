@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Snubbull" nameDescription="a snubbull" race="normal" experience="350" speed="227" manacost="0">
+    <health now="50" max="50"/>
+  <look type="948" head="1" body="10" legs="95" feet="113" corpse="4440"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Roar" interval="2476" chance="31" range="2"/> -->
+        <attack name="Lick" interval="2664" chance="30" range="1"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Fury Swipes" interval="2852" chance="29" range="1"/> -->
+<!-- Magina nao pertence a esse pokemon         <attack name="Yawn" interval="3040" chance="28" range="6"/> -->
+<!-- Magina nao pertence a esse pokemon 	<attack name="Earthquake" interval="3040" chance="28" range="8"/> -->
+<!-- Magina nao pertence a esse pokemon 	<attack name="Take Down" interval="3040" chance="28" range="5"/> -->
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="SNUU!"/>
+<voice sentence="NUBUULL!"/>
+<voice sentence="SNUBBULL!"/>
+  </voices>
+  <loot>
+        <item id="12173" chance="70" count="1" countmax="5"/> --apple bite 
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

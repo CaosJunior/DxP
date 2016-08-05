@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Steelix" nameDescription="a steelix" race="steel" experience="1100" speed="299" manacost="0">
+  <health now="40" max="40"/>
+  <look type="911" head="70" body="88" legs="95" feet="113" corpse="4443"/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Sand Attack" interval="2852" chance="29" range="4"/> -->
+        <attack name="Iron Tail" interval="2852" chance="29" range="1"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Rock Throw" interval="2805" chance="29" range="3"/> -->
+<!-- Magina nao pertence a esse pokemon         <attack name="Rock Slide" interval="2993" chance="28" range="3"/> -->
+        <attack name="Earthshock" interval="3040" chance="28" range="6"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Falling Rocks" interval="3416" chance="26" range="6"/> -->
+        <attack name="Earthquake" interval="4745" chance="24" range="6"/>
+        <attack name="Harden" interval="5625" chance="18" range="6"/>
+<!-- Magina nao pertence a esse pokemon 		<attack name="Shockwave" interval="3040" chance="28" range="6"/> -->
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="STEEE!"/>
+<voice sentence="LIIX!"/>
+<voice sentence="STEELIX!"/>
+  </voices>
+  <loot>
+        <item id="12337" chance="100" countmax="80"/> --small stone
+        <item id="12205" chance="50" count="1" countmax="1"/> --onix tail
+        <item id="12196" chance="50" countmax="1"/> --stone orb
+        <item id="11445" chance="5" count="1" countmax="1"/> --rock stone
+        <item id="12250" chance="20" count="1" countmax="1"/> --steel ore
+        <item id="12232" chance="5" count="1" countmax="1"/> --metal coat
+        <item id="13867" chance="40" count="1" countmax="1"/> --strange rock
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>
