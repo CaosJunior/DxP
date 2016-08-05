@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+	<quest name="Task - Tonny(Saffron)" startstorageid="8135" startstoragevalue="1">
+		<mission name="Traga me itens." storageid="8136" startvalue="1" endvalue="4">
+			<missionstate id="1" description="Apple Bite(10) e Tooth(10)."/>
+			<missionstate id="2" description="Sandbag(50) e Pot of moss bug(30)."/>
+			<missionstate id="3" description="Tudo feito!!!"/>
+			<missionstate id="4" description="Você entregou com sucesso: Apple Bite(10), Tooth(10), Sandbag(50) e Pot of moss bug(30)."/>
+		</mission>
+	</quest>
+</quests>

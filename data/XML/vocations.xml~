@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocations>
+	<vocation id="0" name="Pokemon Trainer" description="a pokemon trainer" needpremium="0" gaincap="0" gainhp="15" gainmana="0" gainhpticks="2" gainhpamount="200" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="-1" soulmax="264" gainsoulticks="-1" fromvoc="1">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="2.0" magDefense="2.0" armor="2.0"/>
+		<skill fist="100.0" fistBase="1000" club="1.0" sword="1.0" axe="1.0" distance="1.0" shielding="1.0" fishing="1.3" fishBase="10" experience="1.0"/>
+	</vocation>
+	
+	<vocation id="1" name="Pokemon Trainer" description="a pokemon trainer" needpremium="0" gaincap="0" gainhp="15" gainmana="0" gainhpticks="2" gainhpamount="200" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="-1" soulmax="264" gainsoulticks="-1" fromvoc="1" lessloss="0">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="2.0" magDefense="2.0" armor="2.0"/>
+		<skill fist="100.0" fistBase="1000" club="1.0" sword="1.0" axe="1.0" distance="1.0" shielding="1.0" fishing="1.5" fishBase="10" experience="1.0"/>
+	</vocation>
+	<vocation id="2" name="TV" description="a pokemon trainer" needpremium="0" gaincap="0" gainhp="40" gainmana="0" gainhpticks="2" gainhpamount="200" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="-1" soulmax="264" gainsoulticks="-1" fromvoc="1" lessloss="0">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="100.0" fistBase="1000" club="1.0" sword="1.0" axe="1.0" distance="1.0" shielding="1.0" fishing="1.5" fishBase="10" experience="1.0"/>
+	</vocation>
+	<vocation id="3" name="PC" description="a pokemon trainer" needpremium="0" gaincap="0" gainhp="40" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="-1" soulmax="264" gainsoulticks="-1" fromvoc="1" lessloss="0">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="100.0" fistBase="1000" club="1.0" sword="1.0" axe="1.0" distance="1.0" shielding="1.0" fishing="1.5" fishBase="10" experience="1.0"/>
+	</vocation>
+
+	<vocation id="7" name="Duel System2" description="a pokemon trainer" needpremium="0" gaincap="0" gainhp="40" gainmana="0" gainhpticks="2" gainhpamount="200" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="-1" soulmax="264" gainsoulticks="-1" fromvoc="1">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="100.0" fistBase="1000" club="1.0" sword="1.0" axe="1.0" distance="1.0" shielding="1.0" fishing="1.5" fishBase="10" experience="1.0"/>
+	</vocation>
+	<vocation id="8" name="Duel System" description="a pokemon trainer" needpremium="0" gaincap="0" gainhp="40" gainmana="0" gainhpticks="2" gainhpamount="200" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="-1" soulmax="264" gainsoulticks="-1" fromvoc="1">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="100.0" fistBase="1000" club="1.0" sword="1.0" axe="1.0" distance="1.0" shielding="1.0" fishing="1.5" fishBase="10" experience="1.0"/>
+	</vocation>
+
+	<vocation id="9" name="Pokedex System" description="a pokemon trainer" needpremium="0" gaincap="0" gainhp="40" gainmana="0" gainhpticks="2" gainhpamount="200" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="-1" soulmax="264" gainsoulticks="-1" fromvoc="1">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="100.0" fistBase="1000" club="1.0" sword="1.0" axe="1.0" distance="1.0" shielding="1.0" fishing="1.5" fishBase="10" experience="1.0"/>
+	</vocation>
+	<vocation id="10" name="Pokedex System" description="a pokemon trainer" needpremium="0" gaincap="0" gainhp="40" gainmana="0" gainhpticks="2" gainhpamount="200" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="-1" soulmax="264" gainsoulticks="-1" fromvoc="1">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="100.0" fistBase="1000" club="1.0" sword="1.0" axe="1.0" distance="1.0" shielding="1.0" fishing="1.5" fishBase="10" experience="1.0"/>
+	</vocation>
+<vocation id="11" name="Pokedex Systemss" description="a pokemon trainer" needpremium="0" gaincap="0" gainhp="40" gainmana="0" gainhpticks="2" gainhpamount="200" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="-1" soulmax="264" gainsoulticks="-1" fromvoc="1">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="100.0" fistBase="1000" club="1.0" sword="1.0" axe="1.0" distance="1.0" shielding="1.0" fishing="1.5" fishBase="10" experience="1.0"/>
+	</vocation>
+</vocations>

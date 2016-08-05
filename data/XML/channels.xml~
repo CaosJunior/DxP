@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+	<!-- README:
+		0 - dynamic, reserved for guilds
+		1 - always acts as Party channel, only "name" tag available
+		3 - always acts as Rule Violations channel
+		9 - acts as Help channel- clientsided message
+		65535 - DO NOT CHANGE THE ID- only "name", "enabled", "active" and "logged" tags available
+	 -->
+	<channel id="3" name="Regras violadas" logged="yes">
+		<vocation id="10"/>
+	</channel>
+
+	<channel id="9000" name="Player Party">
+		<vocation id="10"/>
+	</channel>
+	<channel id="9001" name="Trade" level="8" muted="120" conditionId="2" conditionMessage="You may only place one offer in two minutes.">
+		<vocation id="10"/>
+	</channel>
+	<channel id="9003" name="Help" level="20" muted="120" conditionId="3" conditionMessage="Can not reenter, please wait 2 minutes.">
+		<vocation id="10"/>
+	</channel>
+	<channel id="20" name="Pokemons Capturados" level="2000">
+		<vocation id="10"/>
+	</channel>
+	<channel id="21" name="20 Devoted Token (Tier 1-2)">
+		<vocation id="10"/>
+	</channel>
+	<channel id="22" name="70 Mighty Token (Tier 1-3)">
+		<vocation id="10"/>
+	</channel>
+	<channel id="23" name="150 Mighty Token (Tier 2-4)">
+		<vocation id="10"/>
+	</channel>
+	<channel id="24" name="300 Mighty Token (Tier 2-6)">
+		<vocation id="10"/>
+	</channel>
+	<channel id="25" name="30 Hornored Token (Tier 1-3)">
+		<vocation id="10"/>
+	</channel>
+	<channel id="26" name="75  Hornered Token (Tier 2-4)">
+		<vocation id="10"/>
+	</channel>
+	<channel id="27" name="150 Hornered Token (Tier 2-6)">
+		<vocation id="10"/>
+	</channel>
+	
+
+	<channel id="10001" name="001-Bulbasaur">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10002" name="002-Ivysaur">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10003" name="003-Venusaur">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10004" name="004-Charmander">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10005" name="005-Charmeleon">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10006" name="006-Charizard">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10007" name="007-Squirtle">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10008" name="008-Wartortle">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10009" name="009-Blastoise">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10010" name="010-Caterpie">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10011" name="011-Metapod">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10012" name="012-Butterfree">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10013" name="013-Weedle">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10014" name="014-Kakuna">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10015" name="015-Beedrill">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10016" name="016-Pidgey">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10017" name="017-Pidgeotto">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10018" name="018-Pidgeot">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10019" name="019-Rattata">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10020" name="020-Raticate">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10021" name="021-Spearow">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10022" name="022-Fearow">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10023" name="023-Ekans">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10024" name="024-Arbok">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10025" name="025-Pikachu">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10026" name="026-Raichu">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10027" name="027-Sandshrew">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10028" name="028-Sandslash">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10029" name="029-Nidoran Female">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10030" name="030-Nidorina">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10031" name="031-Nidoqueen">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10032" name="032-Nidoran Male">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10033" name="033-Nidorino">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10034" name="034-Nidoking">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10035" name="035-Clefairy">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10036" name="036-Clefable">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10037" name="037-Vulpix">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10038" name="038-Ninetales">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10039" name="039-Jigglypuff">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10040" name="040-Wigglytuff">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10041" name="041-Zubat">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10042" name="042-Golbat">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10043" name="043-Oddish">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10044" name="044-Gloom">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10045" name="045-Vileplume">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10046" name="046-Paras">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10047" name="047-Parasect">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10048" name="048-Venonat">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10049" name="049-Venomoth">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10050" name="050-Diglett">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10051" name="051-Dugtrio">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10052" name="052-Meowth">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10053" name="053-Persian">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10054" name="054-Psyduck">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10055" name="055-Golduck">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10056" name="056-Mankey">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10057" name="057-Primeape">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10058" name="058-Growlithe">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10059" name="059-Arcanine">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10060" name="060-Poliwag">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10061" name="061-Poliwhirl">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10062" name="062-Poliwrath">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10063" name="063-Abra">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10064" name="064-Kadabra">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10065" name="065-Alakazam">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10066" name="066-Machop">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10067" name="067-Machoke">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10068" name="068-Machamp">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10069" name="069-Bellsprout">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10070" name="070-Weepinbell">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10071" name="071-Victreebel">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10072" name="072-Tentacool">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10073" name="073-Tentacruel">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10074" name="074-Geodude">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10075" name="075-Graveler">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10076" name="076-Golem">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10077" name="077-Ponyta">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10078" name="078-Rapidash">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10079" name="079-Slowpoke">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10080" name="080-Slowbro">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10081" name="081-Magnemite">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10082" name="082-Magneton">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10083" name="083-Farfetch'd">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10084" name="084-Doduo">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10085" name="085-Dodrio">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10086" name="086-Seel">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10087" name="087-Dewgong">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10088" name="088-Grimer">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10089" name="089-Muk">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10090" name="090-Shellder">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10091" name="091-Cloyster">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10092" name="092-Gastly">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10093" name="093-Haunter">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10094" name="094-Gengar">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10095" name="095-Onix">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10096" name="096-Drowzee">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10097" name="097-Hypno">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10098" name="098-Krabby">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10099" name="099-Kingler">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10100" name="100-Voltorb">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10101" name="101-Electrode">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10102" name="102-Exeggcute">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10103" name="103-Exeggutor">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10104" name="104-Cubone">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10105" name="105-Marowak">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10106" name="106-Hitmonlee">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10107" name="107-Hitmonchan">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10108" name="108-Lickitung">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10109" name="109-Koffing">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10110" name="110-Weezing">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10111" name="111-Rhyhorn">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10112" name="112-Rhydon">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10113" name="113-Chansey">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10114" name="114-Tangela">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10115" name="115-Kangaskhan">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10116" name="116-Horsea">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10117" name="117-Seadra">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10118" name="118-Goldeen">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10119" name="119-Seaking">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10120" name="120-Staryu">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10121" name="121-Starmie">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10122" name="122-Mr. Mime">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10123" name="123-Scyther">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10124" name="124-Jynx">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10125" name="125-Electabuzz">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10126" name="126-Magmar">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10127" name="127-Pinsir">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10128" name="128-Tauros">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10129" name="129-Magikarp">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10130" name="130-Gyarados">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10131" name="131-Lapras">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10132" name="132-Ditto">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10133" name="133-Eevee">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10134" name="134-Vaporeon">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10135" name="135-Jolteon">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10136" name="136-Flareon">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10137" name="137-Porygon">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10138" name="138-Omanyte">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10139" name="139-Omastar">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10140" name="140-Kabuto">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10141" name="141-Kabutops">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10142" name="142-Aerodactyl">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10143" name="143-Snorlax">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10144" name="144-Articuno">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10145" name="145-Zapdos">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10146" name="146-Moltres">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10147" name="147-Dratini">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10148" name="148-Dragonair">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10149" name="149-Dragonite">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10150" name="150-Mewtwo">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10151" name="151-Mew">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10152" name="152-Chikorita">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10153" name="153-Bayleef">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10154" name="154-Meganium">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10155" name="155-Cyndaquil">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10156" name="156-Quilava">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10157" name="157-Typhlosion">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10158" name="158-Totodile">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10159" name="159-Croconaw">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10160" name="160-Feraligatr">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10161" name="161-Sentret">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10162" name="162-Furret">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10163" name="163-Hoothoot">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10164" name="164-Noctowl">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10165" name="165-Ledyba">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10166" name="166-Ledian">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10167" name="167-Spinarak">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10168" name="168-Ariados">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10169" name="169-Crobat">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10170" name="170-Chinchou">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10171" name="171-Lanturn">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10172" name="172-Pichu">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10173" name="173-Cleffa">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10174" name="174-Iglybuff">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10175" name="175-Togepi">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10176" name="176-Togetic">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10177" name="177-Natu">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10178" name="178-Xatu">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10179" name="179-Mareep">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10180" name="180-Flaaffy">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10181" name="181-Ampharos">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10182" name="182-Bellossom">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10183" name="183-Marill">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10184" name="184-Azumarill">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10185" name="185-Sudowoodo">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10186" name="186-Politoed">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10187" name="187-Hoppip">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10188" name="188-Skiploom">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10189" name="189-Jumpluff">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10190" name="190-Aipom">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10191" name="191-Sunkern">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10192" name="192-Sunflora">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10193" name="193-Yanma">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10194" name="194-Wooper">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10195" name="195-Quagsire">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10196" name="196-Espeon">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10197" name="197-Umbreon">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10198" name="198-Murkrow">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10199" name="199-Slowking">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10200" name="200-Misdreavus">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10201" name="201-Unown">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10202" name="202-Wobbuffet">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10203" name="203-Girafarig">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10204" name="204-Pineco">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10205" name="205-Forretress">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10206" name="206-Dunsparce">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10207" name="207-Gligar">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10208" name="208-Steelix">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10209" name="209-Snubbull">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10210" name="210-Granbull">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10211" name="211-Qwilfish">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10212" name="212-Scizor">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10213" name="213-Shuckle">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10214" name="214-Heracross">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10215" name="215-Sneasel">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10216" name="216-Teddiursa">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10217" name="217-Ursaring">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10218" name="218-Slugma">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10219" name="219-Magcargo">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10220" name="220-Swinub">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10221" name="221-Piloswine">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10222" name="222-Corsola">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10223" name="223-Remoraid">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10224" name="224-Octillery">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10225" name="225-Delibird">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10226" name="226-Mantine">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10227" name="227-Skarmory">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10228" name="228-Houndour">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10229" name="229-Houndoom">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10230" name="230-Kingdra">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10231" name="231-Phanpy">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10232" name="232-Donphan">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10233" name="233-Porygon2">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10234" name="234-Stantler">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10235" name="235-Smeargle">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10236" name="236-Tyrogue">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10237" name="237-Hitmontop">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10238" name="238-Smoochum">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10239" name="239-Elekid">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10240" name="240-Magby">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10241" name="241-Miltank">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10242" name="242-Blissey">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10243" name="243-Raikou">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10244" name="244-Entei">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10245" name="245-Suicune">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10246" name="246-Larvitar">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10247" name="247-Pupitar">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10248" name="248-Tyranitar">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10249" name="249-Lugia">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10250" name="250-Ho-oh">
+		<vocation id="9"/>
+	</channel>
+	<channel id="10251" name="251-Celebi">
+		<vocation id="9"/>
+	</channel>
+
+	
+</channels>

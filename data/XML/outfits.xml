@@ -1,0 +1,440 @@
+<?xml version="1.0"?>
+<outfits>
+<!-- NORMAL -->
+
+<outfit id="1">
+<list gender="0" lookType="511" name="Trainer"/>
+<list gender="1" lookType="510" name="Trainer"/>
+</outfit>
+<outfit id="2">
+<list gender="0" lookType="615" name="Elite Trainer"/>
+<list gender="1" lookType="614" name="Elite Trainer"/>
+</outfit>
+<outfit id="3" quest="181602">
+<list gender="0" lookType="512" name="Rapper"/>
+<list gender="1" lookType="545" name="Rapper"/>
+</outfit>
+<outfit id="4" quest="181601">
+<list gender="0" lookType="588" name="Jamaican"/>
+<list gender="1" lookType="587" name="Jamaican"/>
+</outfit>
+<outfit id="5" quest="181603">
+<list gender="0" lookType="586" name="Oriental"/>
+<list gender="1" lookType="585" name="Oriental"/>
+</outfit>
+<outfit id="6" quest="181604">
+<list gender="0" lookType="605" name="Rocket"/>
+<list gender="1" lookType="604" name="Rocket"/>
+</outfit>
+<outfit id="7" quest="181605">
+<list gender="0" lookType="495" name="Adventurer"/>
+<list gender="1" lookType="494" name="Adventurer"/>
+</outfit>
+<outfit id="8" quest="181606">
+<list gender="0" lookType="513" name="Bussiness"/>
+<list gender="1" lookType="1419" name="Bussiness"/>
+</outfit>
+<outfit id="9" quest="181607">
+<list gender="0" lookType="517" name="Atletic"/>
+<list gender="1" lookType="516" name="Atletic"/>
+</outfit>
+<outfit id="10" quest="181608">
+<list gender="0" lookType="519" name="Punk"/>
+<list gender="1" lookType="518" name="Punk"/>
+</outfit>
+<outfit id="11">
+<list gender="0" lookType="521" name="Fisher"/>
+<list gender="1" lookType="520" name="Fisher"/>
+</outfit>
+<outfit id="12" quest="181610">
+<list gender="0" lookType="524" name="Mercenary"/>
+<list gender="1" lookType="522" name="Mercenary"/>
+</outfit>
+<outfit id="13" quest="181611">
+<list gender="0" lookType="525" name="Hiker"/>
+<list gender="1" lookType="523" name="Hiker"/>
+</outfit>
+<!-- PROMOTE -->
+
+<outfit id="14" quest="181612">
+<list gender="0" lookType="1149" name="Naturia"/>
+<list gender="1" lookType="1159" name="Naturia"/>
+</outfit>
+<outfit id="15" quest="181613">
+<list gender="0" lookType="1152" name="Volcanic"/>
+<list gender="1" lookType="1154" name="Volcanic"/>
+</outfit>
+<outfit id="16" quest="181614">
+<list gender="0" lookType="1146" name="Gardestrike"/>
+<list gender="1" lookType="1155" name="Gardestrike"/>
+</outfit>
+<outfit id="17" quest="181615">
+<list gender="0" lookType="1153" name="Malefic"/>
+<list gender="1" lookType="1157" name="Malefic"/>
+</outfit>
+<outfit id="18" quest="181616">
+<list gender="0" lookType="1148" name="Wingeon"/>
+<list gender="1" lookType="1158" name="Wingeon"/>
+</outfit>
+<outfit id="19" quest="181617">
+<list gender="0" lookType="1147" name="Raibolt"/>
+<list gender="1" lookType="1160" name="Raibolt"/>
+</outfit>
+<outfit id="20" quest="181618">
+<list gender="0" lookType="1145" name="Psycraft"/>
+<list gender="1" lookType="1161" name="Psycraft"/>
+</outfit>
+<outfit id="21" quest="181619">
+<list gender="0" lookType="1151" name="Seavell"/>
+<list gender="1" lookType="1162" name="Seavell"/>
+</outfit>
+<outfit id="22" quest="181620">
+<list gender="0" lookType="1150" name="Orebound"/>
+<list gender="1" lookType="1156" name="Orebound"/>
+</outfit>
+
+<!-- PROMOTE RANK 5 -->
+
+<outfit id="23" quest="181621">
+<list gender="0" lookType="1437" name="Raibolt Master"/>
+<list gender="1" lookType="1421" name="Raibolt Master"/>
+</outfit>
+<outfit id="24" quest="181622">
+<list gender="0" lookType="1438" name="Seavell Master"/>
+<list gender="1" lookType="1422" name="Seavell Master"/>
+</outfit>
+<outfit id="25" quest="181623">
+<list gender="0" lookType="1434" name="Naturia Master"/>
+<list gender="1" lookType="1423" name="Naturia Master"/>
+</outfit>
+<outfit id="26" quest="181624">
+<list gender="0" lookType="1430" name="Malefic Master"/>
+<list gender="1" lookType="1428" name="Malefic Master"/>
+</outfit>
+<outfit id="27" quest="181625">
+<list gender="0" lookType="1432" name="Volcanic Superior"/>
+<list gender="1" lookType="1425" name="Volcanic Superior"/>
+</outfit>
+<outfit id="28" quest="181626">
+<list gender="0" lookType="1433" name="Wingeon Master"/>
+<list gender="1" lookType="1424" name="Wingeon Master"/>
+</outfit>
+<outfit id="29" quest="181627">
+<list gender="0" lookType="1436" name="Orebound Master"/>
+<list gender="1" lookType="1427" name="Orebound Master"/>
+</outfit>
+<outfit id="30" quest="181628">
+<list gender="0" lookType="1431" name="Gardestrike Master"/>
+<list gender="1" lookType="1429" name="Gardestrike Master"/>
+</outfit>
+<outfit id="31" quest="181629">
+<list gender="0" lookType="1435" name="Psycraft Master"/>
+<list gender="1" lookType="1426" name="Psycraft Master"/>
+</outfit>
+
+<!-- PROMOTE MASTER -->
+
+<outfit id="32" quest="10051">
+<list gender="0" lookType="2101" name="Iron Hard Master"/>
+<list gender="1" lookType="2102" name="Iron Hard Master"/>
+</outfit>
+<outfit id="33" quest="10050">
+<list gender="0" lookType="2126" name="Iron Hard"/>
+<list gender="1" lookType="2125" name="Iron Hard"/>
+</outfit>
+<outfit id="34" quest="181632">
+<list gender="0" lookType="1434" name="Naturia Master"/>
+<list gender="1" lookType="1423" name="Naturia Master"/>
+</outfit>
+<outfit id="35" quest="181633">
+<list gender="0" lookType="1430" name="Malefic Master"/>
+<list gender="1" lookType="1428" name="Malefic Master"/>
+</outfit>
+<outfit id="36" quest="181634">
+<list gender="0" lookType="1432" name="Volcanic Superior"/>
+<list gender="1" lookType="1425" name="Volcanic Superior"/>
+</outfit>
+<outfit id="37" quest="181635">
+<list gender="0" lookType="1433" name="Wingeon Master"/>
+<list gender="1" lookType="1424" name="Wingeon Master"/>
+</outfit>
+<outfit id="38" quest="181636">
+<list gender="0" lookType="1436" name="Orebound Master"/>
+<list gender="1" lookType="1427" name="Orebound Master"/>
+</outfit>
+<outfit id="39" quest="181637">
+<list gender="0" lookType="1431" name="Gardestrike Master"/>
+<list gender="1" lookType="1429" name="Gardestrike Master"/>
+</outfit>
+<outfit id="40" quest="181638">
+<list gender="0" lookType="1435" name="Psycraft Master"/>
+<list gender="1" lookType="1426" name="Psycraft Master"/>
+</outfit>
+
+<!-- GAMEMASTER -->
+
+<outfit id="41" access = "4">
+<list gender="0-3" lookType="664" name="GameMaster"/>
+</outfit>
+<outfit id="42" access = "4">
+<list gender="1" lookType="610" name="Reporter"/>
+</outfit>
+
+
+<!-- NATAL -->
+
+<outfit id="43" quest="181639">
+<list gender="0" lookType="661" name="Christmas"/>
+<list gender="1" lookType="662" name="Christmas"/>
+</outfit>
+<outfit id="44" quest="181640">
+<list gender="0" lookType="1084" name="Christmas 2"/>
+<list gender="1" lookType="1083" name="Christmas 2"/>
+</outfit>
+
+<!-- HALLOWEEN -->
+
+<outfit id="45" quest="181641">
+<list gender="0-3" lookType="1140" name="Mummy"/>
+</outfit>
+<outfit id="46" quest="181642">
+<list gender="0" lookType="1190" name="Bruxa"/>
+<list gender="1" lookType="1191" name="Dracula"/>
+</outfit>
+<outfit id="47" quest="181643">
+<list gender="0" lookType="1188" name="Caveira"/>
+<list gender="1" lookType="1189" name="Diaba"/>
+</outfit>
+
+<!-- CATCHER -->
+
+<outfit id="48" quest="181644">
+<list gender="0" lookType="1414" name="Catcher"/>
+<list gender="1" lookType="1413" name="Catcher"/>
+</outfit>
+
+<!-- ESPECIAIS -->
+
+<outfit id="49" quest="181645">
+<list gender="0" lookType="1016" name="Hunter"/>
+<list gender="1" lookType="1015" name="Hunter"/>
+</outfit>
+<outfit id="50" quest="181646">
+<list gender="0" lookType="1035" name="Mergulhadora"/>
+<list gender="1" lookType="1034" name="Mergulhador"/>
+</outfit>
+<outfit id="51" quest="181647">
+<list gender="0" lookType="1408" name="Esquiadora"/>
+<list gender="1" lookType="1407" name="Esquiador"/>
+</outfit>
+<outfit id="52" quest="181648">
+<list gender="1" lookType="1441" name="Slash"/>
+</outfit>
+<outfit id="53" quest="181649">
+<list gender="0" lookType="1442" name="Playboy"/>
+</outfit>
+<outfit id="54" quest="181650">
+<list gender="1" lookType="1443" name="Vinganca"/>
+</outfit>
+<outfit id="55" quest="181651">
+<list gender="1" lookType="1444" name="House"/>
+</outfit>
+<outfit id="56" quest="181652">
+<list gender="0" lookType="1184" name="Police Officer"/>
+<list gender="1" lookType="1183" name="Police Officer"/>
+</outfit>
+<outfit id="57" quest="181653">
+<list gender="0" lookType="1466" name="Veteran Trainer"/>
+<list gender="1" lookType="1465" name="Veteran Trainer"/>
+</outfit>
+<outfit id="58" quest="181654">
+<list gender="0" lookType="1469" name="Assassin"/>
+<list gender="1" lookType="1470" name="Assassin"/>
+</outfit>
+<outfit id="59" quest="181655">
+<list gender="0" lookType="1498" name="Natal"/>
+<list gender="1" lookType="1497" name="Natal"/>
+</outfit>
+
+<outfit id="60" >
+<list gender="0" lookType="1668" name="TG"/>
+<list gender="1" lookType="1669" name="TG"/>
+</outfit>
+
+<outfit id="61" >
+<list gender="0" lookType="1666" name="TG1"/>
+<list gender="1" lookType="1667" name="TG2"/>
+</outfit>
+
+<outfit id="62" quest="20020">
+<list gender="0" lookType="1674" name="Brotherhood"/>
+<list gender="1" lookType="1673" name="Brotherhood"/>
+</outfit>
+
+<outfit id="63" quest="20019">
+<list gender="0" lookType="1672" name="Duelist"/>
+<list gender="1" lookType="1671" name="Duelist"/>
+</outfit>
+
+<outfit id="64" >
+<list gender="1" lookType="1670" name="Dr.House"/>
+</outfit>
+
+<outfit id="65" >
+<list gender="1" lookType="1675" name="Enginer"/>
+</outfit>
+
+<outfit id="66" >
+<list gender="1" lookType="1676" name="Enginer"/>
+</outfit>
+
+<outfit id="67" >
+<list gender="0" lookType="1677" name="Christmas 3"/>
+<list gender="1" lookType="1678" name="Christmas 3"/>
+</outfit>
+
+<outfit id="68" >
+<list gender="0" lookType="1679" name="Rabbit"/>
+<list gender="1" lookType="1680" name="Rabbit"/>
+</outfit>
+
+<outfit id="69" >
+<list gender="1" lookType="1681" name="Wolf Man"/>
+</outfit>
+
+<outfit id="70" >
+<list gender="0" lookType="1682" name="Morgana"/>
+</outfit>
+
+<outfit id="71" >
+<list gender="0" lookType="1685" name="Test1"/>
+<list gender="1" lookType="1686" name="Test1"/>
+</outfit>
+
+<outfit id="72" >
+<list gender="0" lookType="1688" name="Test2"/>
+<list gender="1" lookType="1687" name="Test2"/>
+</outfit>
+
+<outfit id="73" >
+<list gender="0" lookType="1690" name="Test3"/>
+<list gender="1" lookType="1689" name="Test3"/>
+</outfit>
+
+<outfit id="74" >
+<list gender="0" lookType="1691" name="Test4"/>
+<list gender="1" lookType="1692" name="Test4"/>
+</outfit>
+
+<outfit id="75" >
+<list gender="1" lookType="1693" name="Test5"/>
+</outfit>
+
+<outfit id="76" >
+<list gender="1" lookType="1694" name="Test6"/>
+</outfit>
+
+<outfit id="77" >
+<list gender="1" lookType="1695" name="Test7"/>
+</outfit>
+
+<outfit id="78" >
+<list gender="1" lookType="1696" name="Test8"/>
+</outfit>
+
+<outfit id="79" >
+<list gender="0" lookType="1697" name="Test9"/>
+</outfit>
+
+<outfit id="80" >
+<list gender="0" lookType="1698" name="Test10"/>
+</outfit>
+
+<outfit id="81" >
+<list gender="1" lookType="1699" name="Test11"/>
+</outfit>
+
+<outfit id="82" >
+<list gender="1" lookType="1700" name="Test12"/>
+</outfit>
+
+<outfit id="83" >
+<list gender="1" lookType="1701" name="Test13"/>
+</outfit>
+
+<outfit id="84" >
+<list gender="0" lookType="1702" name="Test14"/>
+</outfit>
+
+<outfit id="85" >
+<list gender="1" lookType="1703" name="Test15"/>
+</outfit>
+
+<outfit id="86" >
+<list gender="0" lookType="1704" name="Test16"/>
+</outfit>
+
+<outfit id="87" >
+<list gender="0" lookType="1705" name="Test17"/>
+</outfit>
+
+<outfit id="88" >
+<list gender="0" lookType="1706" name="Test18"/>
+</outfit>
+
+<outfit id="89" >
+<list gender="1" lookType="1707" name="Test19"/>
+</outfit>
+
+<outfit id="90" >
+<list gender="1" lookType="1708" name="Test20"/>
+</outfit>
+
+<outfit id="91" >
+<list gender="1" lookType="1709" name="Test21"/>
+</outfit>
+
+<outfit id="92" >
+<list gender="0" lookType="1710" name="Test22"/>
+</outfit>
+
+<outfit id="93" >
+<list gender="0" lookType="1711" name="Test23"/>
+<list gender="1" lookType="1712" name="Test23"/>
+</outfit>
+
+<outfit id="94" >
+<list gender="1" lookType="1713" name="Test24"/>
+</outfit>
+
+<outfit id="95" >
+<list gender="0" lookType="1714" name="Test25"/>
+<list gender="1" lookType="1715" name="Test25"/>
+</outfit>
+
+<outfit id="96" >
+<list gender="0" lookType="1717" name="Test26"/>
+<list gender="1" lookType="1716" name="Test26"/>
+</outfit>
+
+<outfit id="97" >
+<list gender="0" lookType="1718" name="Test27"/>
+</outfit>
+
+<outfit id="98" >
+<list gender="0" lookType="1719" name="Test28"/>
+</outfit>
+
+<outfit id="99" >
+<list gender="1" lookType="1720" name="Test29"/>
+</outfit>
+
+<outfit id="100" >
+<list gender="0" lookType="1721" name="Test30"/>
+</outfit>
+
+<outfit id="101" >
+<list gender="0" lookType="1722" name="Test31"/>
+</outfit>
+
+</outfits>

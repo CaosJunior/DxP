@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups>
+	<group id="1" name="Player" flags="8304" customFlags="8192"/>
+
+	<group id="2" name="Tutor" access="2" flags="176"/>
+
+	<group id="3" name="Senior Tutor" flags="68736352256" customFlags="14" access="3" violationReasons="10" nameViolationFlags="2" statementViolationFlags="63" maxVips="200"/>
+
+	<group id="4" name="Game Master" flags="3808558964575" customFlags="562911" access="4" violationReasons="19" nameViolationFlags="10" statementViolationFlags="69" depotLimit="3000" maxVips="300"/>
+
+	<group id="5" name="Community Manager" flags="3840774348794" customFlags="562911" access="5" violationReasons="23" nameViolationFlags="42" statementViolationFlags="213" depotLimit="4000" maxVips="400"/>
+
+	<group id="6" name="ADM" flags="338646913753080" customFlags="91805663" access="5" violationReasons="23" nameViolationFlags="426" statementViolationFlags="469" depotLimit="5000" maxVips="500"/>
+	
+	<group id="8" name="Pokemon" flags="8304" customFlags="8192" violationReasons="4" nameViolationFlags="2"/>
+
+	<group id="11" name="Watching TV" flags="13196790358799" customFlags="0"/>
+	
+	<group id="15" name="Owner of the game" flags="338646913753080" customFlags="91805663" access="15" violationReasons="23" nameViolationFlags="426" statementViolationFlags="469" depotLimit="5000" maxVips="500"/>
+</groups>
