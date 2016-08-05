@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Ampharos" nameDescription="an Shiny ampharos" race="electric" experience="1072" speed="252" manacost="0">
+  <health now="90" max="90"/>
+  <look type="1524" head="65" body="80" legs="95" feet="113" corpse="12835"/>
+	 <targetchange interval="1000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Quick Attack" interval="2570" chance="31" range="2"/>
+        <attack name="Thunder Shock" interval="2805" chance="29" range="3"/>
+	<attack name="Thunder Wave" interval="2905" chance="29" range="3"/>
+        <attack name="Thunder Punch" interval="2702" chance="24" range="1"/>
+        <attack name="Electro Field" interval="3446" chance="28" range="6"/>
+        <attack name="Thunder Bolt" interval="3134" chance="27" range="3"/>
+	<attack name="Thunder" interval="3334" chance="27" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="AMPHAA!"/>
+      <voice sentence="PHAROOS!"/>
+      <voice sentence="AMPHAROS!"/>
+  </voices>
+    <loot>
+        <item id="11444" chance="20000" count="1" countmax="5"/>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+

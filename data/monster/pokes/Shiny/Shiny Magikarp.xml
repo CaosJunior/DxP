@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Magikarp" nameDescription="a Shiny magikarp" race="water" experience="44" speed="257" manacost="0">
+  <health now="10" max="10"/>
+  <look type="1323" head="1" body="20" legs="95" feet="113" corpse="12549"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Splash" interval="10" chance="70" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="MAGIKARP!"/>
+ </voices>
+
+  <loot>
+          <item id="11442" chance="20000" count="1" countmax="2"/> --water stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

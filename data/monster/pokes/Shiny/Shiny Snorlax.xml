@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Snorlax" nameDescription="a Shiny snorlax" race="normal" experience="1212" speed="257" manacost="0">
+  <health now="310" max="310"/>
+  <look type="1337" head="100" body="300" legs="95" feet="113" corpse="12680"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Scratch" interval="2758" chance="70" range="1"/>
+        <attack name="Bite" interval="2805" chance="70" range="1"/>
+        <attack name="Mega Punch" interval="3040" chance="70" range="1"/>
+        <attack name="Headbutt" interval="2946" chance="70" range="1"/>
+        <attack name="Body Slam" interval="2993" chance="70" range="1"/>
+        <attack name="Dizzy Punch" interval="3228" chance="70" range="1"/>
+        <attack name="Crusher Stomp" interval="3792" chance="70" range="4"/>
+        <attack name="Rest" interval="6330" chance="17" range="6"/>
+        <attack name="Hyper Beam" interval="3980" chance="70" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="SNORLAX!"/>
+ </voices>
+
+  <loot>
+        <item id="12339" chance="1000" count="1" countmax="1"/> --box boosted
+        <item id="12618" chance="2000" count="1" countmax="2"/> --boost stone
+        <item id="12338" chance="5000" count="1"/> --bag box --bag box
+        <item id="11640" chance="6000" count="1" countmax="2"/> ---box 3
+        <item id="11641" chance="6000" count="1" countmax="2"/>  --box 4
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

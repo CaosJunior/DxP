@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Weezing" nameDescription="a Shiny weezing" race="poison" experience="312" speed="275" manacost="0">
+    <health now="110" max="110"/>
+    <look type="1507" head="100" body="300" legs="95" feet="113" corpse="12686"/>
+    <targetchange interval="1000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Mud Shot" interval="2964" chance="70" range="3"/>
+        <attack name="Acid" interval="2758" chance="70" range="4"/>
+        <attack name="Headbutt" interval="2805" chance="70" range="1"/>
+        <attack name="Poison Gas" interval="3040" chance="70" range="6"/>
+        <attack name="Poison Bomb" interval="2946" chance="70" range="3"/>
+	<attack name="Mud Bomb" interval="3146" chance="70" range="3"/>
+	<attack name="Selfdestruct" interval="5946" chance="20" range="3"/>
+        <attack name="Mortal Gas" interval="3416" chance="70" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="WEEZING!"/>
+    </voices>
+    <loot>
+		  <item id="11443" chance="20000" count="1" countmax="5"/> --venom stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Crobat" nameDescription="a Shiny crobat" race="poison" experience="484" speed="255" manacost="0">
+  <health now="140" max="140"/>
+  <look type="1501" head="100" body="300" legs="95" feet="113" corpse="12743"/>
+	<strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Bite" interval="2664" chance="70" range="1"/>
+        <attack name="Absorb" interval="2758" chance="70" range="1"/>
+        <attack name="Toxic" interval="2805" chance="70" range="6"/>
+        <attack name="Super Sonic" interval="4920" chance="70" range="6"/>
+        <attack name="Poison Fang" interval="2993" chance="70" range="1"/>
+        <attack name="Whirlwind" interval="3181" chance="70" range="6"/>
+        <attack name="Wing Attack" interval="3322" chance="70" range="6"/>
+	<attack name="Tornado" interval="4022" chance="70" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="CROO!"/>
+<voice sentence="BAAT!"/>
+<voice sentence="CROBAT!"/>
+</voices>
+    <loot>
+		  <item id="11443" chance="20000" count="1" countmax="5"/> --venom stone
+		  <item id="11453" chance="20000" count="1" countmax="5"/> --heart stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
+

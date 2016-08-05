@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Venusaur" nameDescription="a Shiny venusaur" race="grass" experience="1504" speed="286" manacost="0">
+  <health now="220" max="220"/>
+  <look type="1197" head="100" body="300" legs="95" feet="113" corpse="12422"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+<flags>
+ <flag summonable="1"/>
+ <flag attackable="1"/>
+ <flag hostile="1"/>
+ <flag illusionable="1"/>
+ <flag convinceable="1"/>
+ <flag pushable="1"/>
+ <flag canpushitems="0"/>
+ <flag canpushcreatures="0"/>
+ <flag targetdistance="1"/>
+ <flag staticattack="97"/>
+ <flag runonhealth="0"/>
+
+</flags>
+
+<attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Razor Leaf" interval="2758" chance="70" range="4"/>
+        <attack name="Vine Whip" interval="2993" chance="70" range="6"/>
+        <attack name="Headbutt" interval="2711" chance="70" range="1"/>
+        <attack name="Leech Seed" interval="3087" chance="70" range="5"/>
+        <attack name="Bullet Seed" interval="3557" chance="70" range="4"/>
+        <attack name="Solar Beam" interval="4779" chance="70" range="6"/>
+        <attack name="Sleep Powder" interval="5766" chance="70" range="6"/>
+        <attack name="Poison Powder" interval="5202" chance="70" range="6"/>
+        <attack name="Leaf Storm" interval="4826" chance="70" range="6"/>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="VENUSAUR!"/>
+ </voices>
+
+  <loot>
+            <item id="11441" chance="20000" count="1" countmax="5"/> --leaf stone
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>
