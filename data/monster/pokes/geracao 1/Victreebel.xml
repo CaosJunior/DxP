@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Victreebel" nameDescription="a victreebel" race="grass" experience="650" speed="231" manacost="0">
+    <health now="1500" max="1500"/>
+    <look type="591" head="45" body="65" legs="95" feet="113" corpse="11978"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Razor Leaf" interval="2664" chance="30" range="4"/>
+        <attack name="Slash" interval="2758" chance="30" range="1"/>
+        <attack name="Acid" interval="2758" chance="30" range="3"/>
+        <attack name="Vine Whip" interval="2899" chance="29" range="6"/>
+        <attack name="Poison Bomb" interval="2852" chance="29" range="3"/>
+        <attack name="Poison Powder" interval="5625" chance="18" range="6"/>
+        <attack name="Stun Spore" interval="5625" chance="18" range="6"/>
+        <attack name="Sleep Powder" interval="5369" chance="17" range="6"/>
+        <attack name="Leaf Storm" interval="3886" chance="23" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="VICTREEBEL!"/>
+    </voices>
+    <loot>
+        <item id="12163" chance="100" countmax="50"/> --seed
+        <item id="12155" chance="50" count="1" countmax="1"/> --pair of leaves
+        <item id="12153" chance="40" count="1" countmax="1"/> --bag of pollem
+        <item id="11441" chance="4" count="1" countmax="1"/> --leaf stone
+        <item id="11443" chance="4" count="1" countmax="1"/> --venom stone
+        <item id="13897" chance="20" count="1" countmax="1"/> --plant tails
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

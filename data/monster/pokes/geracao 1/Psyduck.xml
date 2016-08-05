@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Psyduck" nameDescription="a psyduck" race="water" experience="100" speed="208" manacost="0">
+    <health now="400" max="400"/>
+    <look type="451" head="10" body="30" legs="95" feet="113" corpse="11949"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag passive="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Water Gun" interval="2852" chance="29" range="6"/>
+        <attack name="Aqua Tail" interval="2758" chance="30" range="1"/>
+        <attack name="Confusion" interval="2805" chance="29" range="6"/>
+        <attack name="Headbutt" interval="3040" chance="28" range="1"/>
+    </attacks>
+    <defenses armor="0" defense="0">
+    </defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="PSYDUCK!"/>
+    </voices>
+    <loot>
+        <item id="12161" chance="100" countmax="20"/> --water gem
+        <item id="12170" chance="40" count="1" countmax="1"/> --water pendant 
+        <item id="12189" chance="15" count="1" countmax="1"/> --psyduck mug
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

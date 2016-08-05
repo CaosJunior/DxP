@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Snorlax" nameDescription="a snorlax" race="normal" experience="1100" speed="207" manacost="0">
+    <health now="3100" max="3100"/>
+    <look type="402" head="80" body="95" legs="95" feet="113" corpse="11965"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Scratch" interval="2758" chance="30" range="1"/> -->
+        <attack name="Bite" interval="2805" chance="29" range="1"/>
+        <attack name="Mega Punch" interval="3040" chance="28" range="1"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Headbutt" interval="2946" chance="28" range="1"/> -->
+        <attack name="Body Slam" interval="2993" chance="28" range="1"/>
+<!-- Magina nao pertence a esse pokemon         <attack name="Dizzy Punch" interval="3228" chance="27" range="1"/> -->
+        <attack name="Crusher Stomp" interval="3792" chance="23" range="4"/>
+        <attack name="Rest" interval="6330" chance="17" range="6"/>
+        <attack name="Hyper Beam" interval="3980" chance="22" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="SNORLAX!"/>
+    </voices>
+    <loot>
+        <item id="12173" chance="100" count="1" countmax="2"/> --bitten apple
+        <item id="12214" chance="100" countmax="1"/> --french fires
+        <item id="12222" chance="1500" count="1" countmax="1"/>
+        <item id="12218" chance="100" countmax="1"/> --pizza
+        <item id="12215" chance="100" count="1" countmax="1"/> --hot dog
+        <item id="11453" chance="5" count="1" countmax="1"/> --heart stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

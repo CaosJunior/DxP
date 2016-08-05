@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Starmie" nameDescription="a starmie" race="water" experience="650" speed="217" manacost="0">
+    <health now="1400" max="1400"/>
+    <look type="600" head="35" body="60" legs="95" feet="113" corpse="11968"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Swift" interval="2758" chance="30" range="3"/>
+        <attack name="Confuse Ray" interval="2852" chance="29" range="3"/>
+        <attack name="Bubblebeam" interval="2899" chance="29" range="3"/>
+        <attack name="Water Gun" interval="2343" chance="25" range="5"/>
+        <attack name="Psyshock" interval="2946" chance="28" range="5"/>
+        <attack name="Harden" interval="6330" chance="25" range="6"/>
+	<attack name="Hydropump" interval="2430" chance="26" range="6"/>
+	<attack name="Psychic" interval="2630" chance="24" range="6"/>
+	<attack name="Restore" interval="2630" chance="17" range="6"/>
+	<attack name="Magic Coat" interval="2630" chance="28" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="STARMIE!"/>
+    </voices>
+    <loot>
+        <item id="12161" chance="100" countmax="80"/> --water gem
+        <item id="12170" chance="50" count="1" countmax="1"/> --water pendant --water pendant
+        <item id="11442" chance="4" count="1" countmax="1"/> --water stone
+        <item id="11452" chance="4" count="1" countmax="1"/> --enigma stone
+        <item id="13870" chance="30" count="1" countmax="1"/> --star gem
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>
