@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<creaturescripts>
+<!-- PXA to DxP -->
+	<event type="extendedopcode" name="Opcode" event="script" value="opcodes/opcode.lua"/>
+	<event type="extendedopcode" name="EmeraldShop" event="script" value="opcodes/emerald_shop.lua"/>
+    <event type="move" name="PokeWalk" event="script" value="player/pokeWalk.lua"/>
+	<event type="moveitem" name="MoveItem" event="script" value="player/moveItem.lua"/>
+	<event type="logout" name="PlayerLogout" event="script" value="player/logout.lua"/>
+	<event type="login" name="PlayerLogin" event="script" value="player/login.lua"/>
+	<event type="matou" name="Matou" event="script" value="player/pokeDeath.lua"/>
+	<event type="statschange" name="GeneralConfiguration" event="script" value="player/statsChange.lua"/>
+	<event type="writechannel" name="PartySystem" event="script" value="player/partySystem.lua"/>
+<!-- PXA to DxP -->
+
+	
+	<event type="joinchannel" name="ShowPokedex" event="script" value="newpokedex.lua"/>
+	<event type="leavechannel" name="ClosePokedex" event="script" value="newpokedex.lua"/>
+	<event type="kill" name="task_count" script="task.lua"/>
+	<event type="kill" name="dropStone" script="dropStone.lua"/>
+	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
+	<event type="death" name="Experience" event="script" value="pokeexp.lua"/>
+	<event type="spawn" name="Spawn" event="script" value="spawn.lua"/>
+	<event type="advance" name="EffectOnAdvance" event="script" value="levelup.lua"/>
+	<event type="target" name="WildAttack" event="script" value="playerattack.lua"/>
+	<event type="look" name="LookSystem" event="script" value="look.lua"/>
+	<event type="traderequest" name="TradeRequest" event="script" value="trade system.lua"/>
+	<event type="tradeaccept" name="TradeAccpet" event="script" value="trade system.lua"/>
+
+</creaturescripts>
