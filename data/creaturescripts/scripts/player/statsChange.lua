@@ -64,8 +64,8 @@ local spellNameFromAttacker = getPlayerStorageValue(attacker, 21102)
 		
 		value = math.ceil(value)
 	
-	   if (value*-1) >= getCreatureHealth(cid) then
-		  doKillPlayer(cid, attacker, (value*-1))
+	   if (value) >= getCreatureHealth(cid) then
+		  doKillPlayer(cid, attacker, (value))
 		  return false
 	   end
 	   doSendAnimatedText(getThingPosWithDebug(cid), (value * -1), color) 
