@@ -253,9 +253,9 @@ if isPlayer(cid) or isPlayer(attacker) then return false end -- seguranca do pla
 		value = value * 1.3
 	elseif isInArray(typeTable[pokeRaceAttacker].week, pokeRaceDefender) or isInArray(typeTable[pokeRaceAttacker].week, pokeRaceDefender) then -- elemento atacante ser mais forte que os elementos de defesa
 		value = value
-	elseif isInArray(typeTable[pokeRaceAttacker].non, pokeRaceDefender) or isInArray(typeTable[pokeRaceAttacker].non, pokeRaceDefender) then -- elemento atacante ser mais forte que os elementos de defesa
-		value = 0
-	end
+	elseif isInArray(pokesGhosts, getCreatureName(cid)) then -- n√£o bater em pokemons ghosts
+        	value = 0
+    	end
 	if getCreatureName(cid) == "Venusaur" and value ~= 0 and isMega(cid) and isInArray({"ice", "fire"}, pokeRaceAttacker)then -- Passiva thick fat
 	   value = value / 2
 	end
@@ -288,6 +288,7 @@ local spellRace, pokeElement1, pokeElement2 = getMoveType(name, spellNameFromAtt
 	end
 	
 end
+	setPlayerStorageValue(attacker, 21102, -1)
 	return value
 end
 
@@ -1132,11 +1133,11 @@ if (not isCreature(cid) or not isCreature(thing)) and not TV then return "" end
 local pos = getThingPos(thing)
 local ocup = youAre[getPlayerGroupId(thing)]
 local rank = (getPlayerStorageValue(thing, 86228) <= 0) and "Treinador Pokemon" or lookClans[getPlayerStorageValue(thing, 86228)][getPlayerStorageValue(thing, 862281)]
-local name = thing == cid and "vocÍ mesmo" or getCreatureName(thing)     
-local art = thing == cid and "VocÍ È" or (getPlayerSex(thing) == 0 and "Ela È" or "Ele È")
+local name = thing == cid and "voc√™ mesmo" or getCreatureName(thing)     
+local art = thing == cid and "Voc√™ √©" or (getPlayerSex(thing) == 0 and "Ela √©" or "Ele √©")
    
 local str = {}
-table.insert(str, "VocÍ est· vendo "..name..". "..art.." ")
+table.insert(str, "Voc√™ est√° vendo "..name..". "..art.." ")
 if youAre[getPlayerGroupId(thing)] then
    table.insert(str, (ocup).." e "..rank.." de ".. getTownName(getPlayerTown(thing))..".")       
 else
@@ -1360,7 +1361,7 @@ end
 return table.concat(final, (name[2] and " " or ""))
 end  
 
----------------------------------------- Order (N„o mexer) ----------------------------------------
+---------------------------------------- Order (N√£o mexer) ----------------------------------------
 function getPokemonName(cid)
    return getCreatureName(cid)
 end
@@ -1430,7 +1431,7 @@ function doCopyPokemon(cid, copy, eff)
 				end
 				
 				if isInDuel(sid) then
-				   doSendMsg(sid, "VocÍ n„o pode transformar seu ditto estando duelo.")
+				   doSendMsg(sid, "Voc√™ n√£o pode transformar seu ditto estando duelo.")
 				   return true
 				end
 	
@@ -1445,12 +1446,12 @@ function doCopyPokemon(cid, copy, eff)
 					  end
 					  
 					  if getItemAttribute(item.uid, "copyName") == copy then
-						 doSendMsg(sid, "Seu ditto j· È uma copia do " .. copy)
+						 doSendMsg(sid, "Seu ditto j√° √© uma copia do " .. copy)
 						 return true
 					  end
 					  
 					  if not pokes[copy] then
-					     doSendMsg(cid, "Isso n„o È um pokemon.")
+					     doSendMsg(cid, "Isso n√£o √© um pokemon.")
 						 print(">>>>>DittoBUG: " .. copy)
 						 return true
 					  end
@@ -1698,7 +1699,7 @@ function doPlayerAddPoke(cid, pokeName, ball, unique)
 	local send = false
 
 	if not ballid then
-		return print("doPlayerAddPoke: N„o foi encontrada a pokebola: "..ball)
+		return print("doPlayerAddPoke: N√£o foi encontrada a pokebola: "..ball)
 	end
 
 	if isUseIconSystem(cid) then
@@ -1721,7 +1722,7 @@ function doPlayerAddPoke(cid, pokeName, ball, unique)
 
 	if send then
 		doPlayerSendMailByName(getCreatureName(cid), item, 1)
-		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "VocÍ j· est· segurando seis pokebolas, o seu novo pokemon foi enviado para o CP.")
+		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Voc√™ j√° est√° segurando seis pokebolas, o seu novo pokemon foi enviado para o CP.")
 	end
 end
 
