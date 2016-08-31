@@ -286,8 +286,8 @@
 
  	<movevent type="StepIn" actionid="9015" event="script" value="roupa.lua"/>
 
-	<movevent type="StepIn" itemid="11756" event="script" value="surf.lua"/>
-	<movevent type="StepOut" itemid="11756" event="script" value="surf.lua"/>
+	<movevent type="StepIn" itemid="4820-4825;11756" event="script" value="surf.lua"/>
+	<movevent type="StepOut" itemid="4820-4825;11756" event="script" value="surf.lua"/>
 	<!-- <movevent type="StepIn" itemid="4632-4663;6627-6694" event="script" value="surfcancel.lua"/> -->
 
 	<movevent type="StepIn" itemid="460;11675-11677" event="script" value="fly.lua"/>

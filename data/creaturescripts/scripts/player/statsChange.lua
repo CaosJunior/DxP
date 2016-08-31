@@ -64,8 +64,8 @@ local spellNameFromAttacker = getPlayerStorageValue(attacker, 21102)
 		
 		value = math.ceil(value)
 	
-	   if (value*-1) >= getCreatureHealth(cid) then
-		  doKillPlayer(cid, attacker, (value*-1))
+	   if (value) >= getCreatureHealth(cid) then
+		  doKillPlayer(cid, attacker, (value))
 		  return false
 	   end
 	   doSendAnimatedText(getThingPosWithDebug(cid), (value * -1), color) 
@@ -285,6 +285,9 @@ if not isPlayer(cid) then
 			
 	if value >= getCreatureHealth(cid) then
 		if isSummon(cid) then
+			if isInDuel(getCreatureMaster(cid)) then
+		     		doRemoveCountPokemon(getCreatureMaster(cid))
+		  	end
 			if isInArray({"Aggron", "Sudowoodo", "Mega Aggron"}, getCreatureName(cid)) then
 			   doCreatureAddHealth(cid, -(getCreatureHealth(cid)-1))
 			   docastspell(cid, "Sturdy", 0, 0)

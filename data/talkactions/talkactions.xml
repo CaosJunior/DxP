@@ -4,7 +4,6 @@
 
 
 <talkaction words="!report" event="script" value="reportBug.lua"/>
-<talkaction words="/teste" event="script" value="teste.lua"/>
 
     <talkaction words="/reloadCDs" case-sensitive="no" event="script" value="cdbar.lua"/>
 	<talkaction words="!partyexp" event="script" value="partyexp.lua"/>
@@ -260,6 +259,5 @@
 
 	<talkaction log="yes" access="4" hide="yes" words="!pos" event="script" value="position.lua"/>
 	
-	<talkaction log="yes" hide="yes" words="teste" event="script" value="teste.lua"/>
 	<talkaction log="yes" hide="yes" words="/cleanMe" event="script" value="playerClean.lua"/>
 </talkactions>
