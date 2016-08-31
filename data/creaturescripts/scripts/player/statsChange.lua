@@ -285,6 +285,9 @@ if not isPlayer(cid) then
 			
 	if value >= getCreatureHealth(cid) then
 		if isSummon(cid) then
+			if isInDuel(getCreatureMaster(cid)) then
+		     		doRemoveCountPokemon(getCreatureMaster(cid))
+		  	end
 			if isInArray({"Aggron", "Sudowoodo", "Mega Aggron"}, getCreatureName(cid)) then
 			   doCreatureAddHealth(cid, -(getCreatureHealth(cid)-1))
 			   docastspell(cid, "Sturdy", 0, 0)
